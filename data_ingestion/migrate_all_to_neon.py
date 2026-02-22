@@ -19,7 +19,7 @@ from dotenv import load_dotenv
 BASE_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = BASE_DIR.parent
 
-load_dotenv(BASE_DIR / ".env")
+load_dotenv()
 DB_URL = os.environ.get("NEON_DATABASE_URL")
 if not DB_URL:
     raise SystemExit("Missing NEON_DATABASE_URL")

@@ -153,26 +153,49 @@ pip install -r requirements.txt
 
 ### 2. Environment Variables
 
-Create `data_ingestion/.env`:
+STREAM reads configuration from **`data_ingestion/.env`** (primary location).  
+`agent/llm.py` also checks a root-level **`.env`** as a fallback (with override).
+
+Create `data_ingestion/.env` using the template below:
 
 ```env
-# Required — Neon database connection
+# ── Database (required) ──────────────────────────────────────────────────────
+# Neon PostgreSQL connection string — get this from your Neon project dashboard
+# Format: postgresql://<user>:<password>@<host>/<dbname>?sslmode=require
 NEON_DATABASE_URL=postgresql://user:password@host/dbname?sslmode=require
 
-# Required for AI Agent — LLM API
+# ── AI Agent / LLM (required only for /agent/* endpoints) ───────────────────
+# AIPipe / OpenRouter-compatible bearer token
 AIPIPE_TOKEN=your_api_key_here
+
+# LLM API base URL — defaults to AIPipe's OpenRouter proxy if not set
 AIPIPE_BASE_URL=https://aipipe.org/openrouter/v1
+
+# Model identifier passed to the LLM API — change to any OpenRouter-supported model
 AIPIPE_MODEL=openai/gpt-4.1-nano
 ```
 
-| Variable | Required | Used By | Description |
-|----------|----------|---------|-------------|
-| `NEON_DATABASE_URL` | Yes | `db.py`, all endpoints | Neon PostgreSQL connection string |
-| `AIPIPE_TOKEN` | For agent | `agent/llm.py` | API key for OpenRouter-compatible LLM |
-| `AIPIPE_BASE_URL` | For agent | `agent/llm.py` | LLM API base URL |
-| `AIPIPE_MODEL` | For agent | `agent/llm.py` | Model identifier |
+**Variable reference:**
 
-> `db.py` automatically loads `data_ingestion/.env`. No additional config needed.
+| Variable | Required | Default | Used By | Description |
+|----------|----------|---------|---------|-------------|
+| `NEON_DATABASE_URL` | **Yes** | — | `db.py`, all endpoints, data ingestion scripts | Neon PostgreSQL connection string with `sslmode=require` |
+| `AIPIPE_TOKEN` | Agent only | — | `agent/llm.py` | Bearer token for AIPipe / OpenRouter LLM API |
+| `AIPIPE_BASE_URL` | No | `https://aipipe.org/openrouter/v1` | `agent/llm.py` | LLM API base URL (OpenAI-compatible) |
+| `AIPIPE_MODEL` | No | `openai/gpt-4.1-nano` | `agent/llm.py` | Model identifier string passed to the API |
+
+**How variables are loaded:**
+
+| File | Loads from |
+|------|------------|
+| `db.py` | `data_ingestion/.env` |
+| `data_ingestion/load_all_to_neon.py` | `data_ingestion/.env` (via `load_dotenv()`) |
+| `data_ingestion/migrate_all_to_neon.py` | `data_ingestion/.env` (via `load_dotenv()`) |
+| `data_ingestion/populate_risk_alerts.py` | `data_ingestion/.env` (via `load_dotenv()`) |
+| `agent/llm.py` | `data_ingestion/.env` first, then root `.env` (override) |
+
+> **Missing `NEON_DATABASE_URL`** → app exits immediately with `SystemExit`.  
+> **Missing `AIPIPE_TOKEN`** → app starts normally; `RuntimeError` raised only when an `/agent/*` endpoint is called.
 
 ### 3. Load Data into Neon
 

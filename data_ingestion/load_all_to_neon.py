@@ -8,7 +8,7 @@ DOWNLOAD_CSV = BASE_DIR / "download.csv"
 REDEMPTION_CSV = BASE_DIR / "redemption.csv"
 
 # Load .env from data_ingestion/ directory
-load_dotenv(BASE_DIR / ".env")
+load_dotenv()
 
 DB_URL = os.environ.get("NEON_DATABASE_URL")
 if not DB_URL:
