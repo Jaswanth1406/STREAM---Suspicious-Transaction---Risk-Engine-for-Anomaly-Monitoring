@@ -1,7 +1,7 @@
 # 🔍 STREAM — Suspicious Transaction Risk Engine for Anomaly Monitoring
 
 > **AI-Powered Anti-Corruption Procurement Intelligence Platform**  
-> AIA-26 Hackathon — Anna University
+> Tekhora Hackathon at Madras Institute of Technology
 
 STREAM is a full-stack procurement fraud detection platform that analyzes Indian public contracting data to surface bid-rigging, shell company networks, cartel behavior, and politically connected vendors. It combines a **two-stage ML pipeline** (rule-based risk scoring + supervised classification) with an **interactive analytics dashboard**, network graph visualization, AI-powered chatbot, and vendor profiling — served through a **FastAPI backend** and a **Next.js frontend** with Better Auth authentication.
 
