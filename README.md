@@ -445,29 +445,8 @@ Each prediction CSV in `output_datasets/` contains:
 - **Node.js 18+** with npm
 - **Neon PostgreSQL** database (or any PostgreSQL)
 
-### 1. Clone & Setup Backend
 
-```bash
-cd backend
-
-# Install Python dependencies
-pip install pandas numpy scikit-learn joblib fastapi uvicorn python-multipart psycopg2-binary python-dotenv imbalanced-learn
-
-# Configure environment
-cp .env.example .env   # Then fill in your DATABASE_URL
-
-# Create auth tables in Neon
-python create_auth_tables.py
-
-# Train model + score all datasets
-python ml_model.py
-
-# Start API server
-uvicorn app:app --reload
-# → http://localhost:8000/docs
-```
-
-### 2. Setup Frontend
+### 1. Setup Frontend
 
 ```bash
 cd frontend
@@ -483,7 +462,7 @@ npm run dev
 # → http://localhost:3000
 ```
 
-### 3. Environment Variables
+### 2. Environment Variables
 
 **`backend/.env`**
 
@@ -530,4 +509,4 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 
 ## 📜 License
 
-Built for the AIA-26 Hackathon at Anna University.
+Built for the Tekhora Hackathon at Madras Institute of Technology.
