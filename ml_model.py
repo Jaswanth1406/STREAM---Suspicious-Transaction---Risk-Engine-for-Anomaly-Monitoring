@@ -4,6 +4,8 @@ Procurement Fraud Risk Scoring Engine
 AIA-26 Hackathon - Anna University
 """
 
+import sys
+import os
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import IsolationForest
@@ -11,6 +13,10 @@ from sklearn.preprocessing import StandardScaler
 import warnings
 warnings.filterwarnings('ignore')
 
+# Fix Windows console encoding for emoji/unicode output
+sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
+filepath = "datasets/ocds_mapped_procurement_data_fiscal_year_2016_2017.csv"
 # ─────────────────────────────────────────────
 # 1. LOAD DATA
 # ─────────────────────────────────────────────
@@ -230,7 +236,7 @@ def run_pipeline(filepath):
         'risk_score', 'risk_tier', 'risk_explanation'
     ]
     result = df[output_cols].sort_values('risk_score', ascending=False)
-    out_path = 'procurement_risk_scores.csv'
+    out_path = 'output_datasets/procurement_risk_scores.csv'
     result.to_csv(out_path, index=False)
     print(f"\n✅ Full results saved → {out_path}")
 
@@ -238,10 +244,60 @@ def run_pipeline(filepath):
 
 
 # ─────────────────────────────────────────────
-# 8. ENTRY POINT
+# 8. ENTRY POINT — FULL END-TO-END PIPELINE
 # ─────────────────────────────────────────────
+#
+# Running `python ml_model.py` will:
+#   1) Rule-score ALL CSVs in datasets/
+#   2) Train the supervised ML model (ml_pipeline)
+#   3) Predict on ALL datasets and save to output_datasets/
+
+DATASETS_DIR = "datasets"
+OUTPUT_DIR   = "output_datasets"
 
 if __name__ == "__main__":
     import sys
-    filepath = sys.argv[1] if len(sys.argv) > 1 else "ocds_mapped_procurement_data_fiscal_year_2016_2017.csv"
-    results = run_pipeline(filepath)
+    import os
+
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    # ── Step 1: Rule-based risk scoring on ALL datasets ──
+    csv_files = sorted([f for f in os.listdir(DATASETS_DIR) if f.endswith(".csv")])
+    print(f"\n{'='*60}")
+    print(f"  STREAM — Processing {len(csv_files)} Datasets")
+    print(f"{'='*60}")
+
+    all_risk_scores = []
+    for i, fname in enumerate(csv_files, 1):
+        fpath = os.path.join(DATASETS_DIR, fname)
+        print(f"\n[{i}/{len(csv_files)}] Rule-scoring: {fname}")
+        print("-" * 50)
+
+        result = run_pipeline(fpath)
+
+        # Save individual risk scores
+        out_name = fname.replace(".csv", "_risk_scores.csv")
+        out_path = os.path.join(OUTPUT_DIR, out_name)
+        result.to_csv(out_path, index=False)
+        print(f"   💾 Saved → {out_path}")
+
+        all_risk_scores.append(result)
+
+    # Combine all risk scores into one file for ML training
+    combined = pd.concat(all_risk_scores, ignore_index=True)
+    combined_path = os.path.join(OUTPUT_DIR, "procurement_risk_scores.csv")
+    combined.to_csv(combined_path, index=False)
+    print(f"\n📦 Combined risk scores ({len(combined)} rows) → {combined_path}")
+
+    # ── Step 2 & 3: Train ML model + batch predict ──
+    print(f"\n{'='*60}")
+    print(f"  STREAM — ML Pipeline: Train + Predict")
+    print(f"{'='*60}")
+
+    from ml_pipeline import train_and_evaluate, batch_score_all_datasets
+    train_and_evaluate()
+    batch_score_all_datasets()
+
+    print(f"\n{'='*60}")
+    print(f"  ✅ ALL DONE — Risk scores + ML predictions in {OUTPUT_DIR}/")
+    print(f"{'='*60}")
