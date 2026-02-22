@@ -19,53 +19,26 @@ import joblib
 from datetime import datetime
 from typing import Optional
 
-from fastapi import FastAPI, UploadFile, File, HTTPException, Query, BackgroundTasks
+from fastapi import FastAPI, UploadFile, File, HTTPException, Query, BackgroundTasks, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
 
 from db import fetch_all, fetch_one, execute, execute_returning, pool
+from risk_engine import (
+    load_model_artifacts,
+    engineer_df as _engineer_df,
+    predict_df as _predict_df,
+    compute_rule_flags,
+    NUMERIC_FEATURES,
+    CATEGORICAL_FEATURES,
+    FLAG_WEIGHTS,
+    MODEL_DIR,
+)
 
 # ─────────────────────────────────────────────
-# CONFIG
+# LOAD ML MODEL (from risk_engine module)
 # ─────────────────────────────────────────────
-
-MODEL_DIR = "trained_model"
-
-NUMERIC_FEATURES = [
-    "tender/value/amount",
-    "tender/numberOfTenderers",
-    "tender/tenderPeriod/durationInDays",
-]
-CATEGORICAL_FEATURES = [
-    "tender/procurementMethod",
-    "tenderclassification/description",
-    "buyer/name",
-]
-
-# ─────────────────────────────────────────────
-# LOAD ML MODEL (still from disk — model artifacts are local)
-# ─────────────────────────────────────────────
-
-def load_model_artifacts():
-    """Load the trained model and supporting objects."""
-    try:
-        model          = joblib.load(os.path.join(MODEL_DIR, "model.joblib"))
-        scaler         = joblib.load(os.path.join(MODEL_DIR, "scaler.joblib"))
-        label_encoders = joblib.load(os.path.join(MODEL_DIR, "label_encoders.joblib"))
-        feature_cols   = joblib.load(os.path.join(MODEL_DIR, "feature_cols.joblib"))
-        with open(os.path.join(MODEL_DIR, "training_report.json"), "r") as f:
-            report = json.load(f)
-        print("   ✅ ML model loaded from trained_model/")
-        return {
-            "model": model, "scaler": scaler,
-            "label_encoders": label_encoders,
-            "feature_cols": feature_cols, "report": report,
-        }
-    except FileNotFoundError:
-        print("   ⚠️  ML model not found — /predict endpoints disabled")
-        return None
-
 
 artifacts = load_model_artifacts()
 
@@ -136,115 +109,22 @@ class TenderSubmission(BaseModel):
 
 
 # ─────────────────────────────────────────────
-# ML FEATURE ENGINEERING
+# ML FEATURE ENGINEERING (delegated to risk_engine)
 # ─────────────────────────────────────────────
 
 def engineer_df(df: pd.DataFrame) -> pd.DataFrame:
-    """Apply feature engineering to a DataFrame for ML prediction."""
-    for col in NUMERIC_FEATURES:
-        if col in df.columns:
-            df[col] = pd.to_numeric(df[col], errors="coerce")
-
-    df["amount"]        = df.get("tender/value/amount", pd.Series([0]*len(df))).fillna(0)
-    df["num_tenderers"] = df.get("tender/numberOfTenderers", pd.Series([0]*len(df))).fillna(0)
-    df["duration_days"] = df.get("tender/tenderPeriod/durationInDays", pd.Series([0]*len(df))).fillna(0)
-    df["log_amount"]      = np.log1p(df["amount"])
-    df["is_round_amount"] = (df["amount"] % 100000 == 0).astype(int)
-
-    buyer_avg = df.groupby("buyer/name")["amount"].transform("mean")
-    df["amount_vs_buyer_avg"] = df["amount"] / (buyer_avg + 1)
-
-    le_map = artifacts["label_encoders"]
-    for col in CATEGORICAL_FEATURES:
-        le = le_map[col]
-        col_enc = col + "_enc"
-        df[col_enc] = df[col].astype(str).apply(
-            lambda x, _le=le: _le.transform([x])[0] if x in _le.classes_ else -1
-        )
-    return df
+    """Apply feature engineering — delegates to risk_engine."""
+    return _engineer_df(df, artifacts)
 
 
 def predict_df(df: pd.DataFrame) -> pd.DataFrame:
-    """Run ML predictions on an engineered DataFrame."""
-    model        = artifacts["model"]
-    scaler       = artifacts["scaler"]
-    feature_cols = artifacts["feature_cols"]
-
-    X = df[feature_cols].fillna(0).values
-    X_scaled = scaler.transform(X)
-
-    df["predicted_suspicious"]  = model.predict(X_scaled)
-    df["suspicion_probability"] = model.predict_proba(X_scaled)[:, 1].round(4)
-    df["predicted_risk_tier"]   = pd.cut(
-        df["suspicion_probability"],
-        bins=[0, 0.3, 0.6, 1.0],
-        labels=["Low", "Medium", "High"],
-        include_lowest=True,
-    )
-    return df
+    """Run ML predictions — delegates to risk_engine."""
+    return _predict_df(df, artifacts)
 
 
 # ─────────────────────────────────────────────
-# RULE-BASED FLAGS (for new tender submissions)
+# RULE-BASED FLAGS (delegated to risk_engine.compute_rule_flags)
 # ─────────────────────────────────────────────
-
-def compute_rule_flags(amount, num_tenderers, duration_days, procurement_method, category, buyer_name):
-    """Compute rule-based flags for a single tender, matching ml_model.py logic."""
-    flags = {}
-    flags["flag_single_bidder"]      = 1 if num_tenderers == 1 else 0
-    flags["flag_zero_bidders"]       = 1 if num_tenderers == 0 else 0
-    flags["flag_short_window"]       = 1 if duration_days < 7 else 0
-    flags["flag_non_open"]           = 1 if procurement_method.lower() not in ("open tender", "open") else 0
-    flags["flag_round_amount"]       = 1 if amount % 100000 == 0 else 0
-
-    # High value: compare against DB percentile
-    p95 = fetch_one(
-        "SELECT percentile_cont(0.95) WITHIN GROUP (ORDER BY amount) AS p95 "
-        "FROM procurement_tender WHERE category = %s",
-        (category,),
-    )
-    p95_val = float(p95["p95"]) if p95 and p95["p95"] else 1e12
-    flags["flag_high_value"] = 1 if amount > p95_val else 0
-
-    # Buyer concentration
-    buyer_share = fetch_one("""
-        SELECT COALESCE(
-            COUNT(*) FILTER (WHERE buyer_name = %s)::float /
-            NULLIF(COUNT(*) FILTER (WHERE category = %s), 0), 0
-        ) AS share
-        FROM procurement_tender WHERE category = %s
-    """, (buyer_name, category, category))
-    flags["flag_buyer_concentration"] = 1 if buyer_share and float(buyer_share["share"]) > 0.7 else 0
-
-    # Compute risk score (matching ml_model.py weights)
-    weights = {
-        "flag_single_bidder": 25, "flag_zero_bidders": 20,
-        "flag_short_window": 15, "flag_non_open": 10,
-        "flag_high_value": 10, "flag_buyer_concentration": 10,
-        "flag_round_amount": 5,
-    }
-    max_weight = sum(weights.values())
-    weighted_sum = sum(flags[k] * weights[k] for k in weights)
-    risk_score = round((weighted_sum / max_weight) * 85, 2)  # 85% from rules
-
-    if risk_score >= 60:
-        risk_tier = "🔴 High"
-    elif risk_score >= 30:
-        risk_tier = "🟡 Medium"
-    else:
-        risk_tier = "🟢 Low"
-
-    # Build explanation
-    explanations = []
-    if flags["flag_single_bidder"]: explanations.append("Only 1 bidder submitted (possible bid-rigging)")
-    if flags["flag_zero_bidders"]:  explanations.append("No bidders recorded (may be pre-awarded)")
-    if flags["flag_short_window"]:  explanations.append(f"Very short tender window ({duration_days} days)")
-    if flags["flag_non_open"]:      explanations.append(f"Non-open procurement method: {procurement_method}")
-    if flags["flag_high_value"]:    explanations.append("Contract value above 95th percentile for this category")
-    if flags["flag_buyer_concentration"]: explanations.append("This buyer dominates >70% of contracts in this category")
-    if flags["flag_round_amount"]:  explanations.append("Contract amount is suspiciously round (possible fixed pricing)")
-
-    return flags, risk_score, risk_tier, "; ".join(explanations)
 
 
 # ─────────────────────────────────────────────
@@ -1503,6 +1383,76 @@ def list_pipeline_jobs(
             for r in rows
         ],
     }
+
+
+# ═══════════════════════════════════════════════
+#  LIFECYCLE
+# ═══════════════════════════════════════════════
+
+# ═══════════════════════════════════════════════
+#  AI AGENT ENDPOINTS
+# ═══════════════════════════════════════════════
+
+class ChatRequest(BaseModel):
+    """Chat request for the AI auditor agent."""
+    messages: list[dict] = Field(
+        ...,
+        description='Conversation history: [{"role": "user", "content": "..."}]',
+        examples=[[{"role": "user", "content": "Show me the top 5 riskiest tenders"}]],
+    )
+    session_id: Optional[str] = Field(
+        None, description="Optional session identifier for tracking."
+    )
+
+
+class ChatResponse(BaseModel):
+    """Chat response from the AI auditor agent."""
+    response: str
+    tool_calls: list[dict] = []
+    session_id: Optional[str] = None
+
+
+@app.post("/agent/chat", response_model=ChatResponse, tags=["Agent"])
+def agent_chat(req: ChatRequest):
+    """
+    Chat with the STREAM Auditor AI Agent.
+
+    Send a conversation history and receive an answer grounded in the
+    procurement database.  The agent can query data, explain risk flags,
+    investigate vendors, run ML predictions, generate audit reports,
+    and analyse entity networks.
+
+    Typical latency: 5-30 s depending on the number of tool calls.
+    """
+    from agent.agent import invoke
+
+    result = invoke(req.messages)
+    return ChatResponse(
+        response=result["response"],
+        tool_calls=result["tool_calls"],
+        session_id=req.session_id,
+    )
+
+
+@app.post("/agent/chat/stream", tags=["Agent"])
+async def agent_chat_stream(req: ChatRequest):
+    """
+    Streaming variant of /agent/chat.  Returns Server-Sent Events (SSE)
+    with token-by-token output and tool-call events.
+
+    Event types:
+    - `token`      — partial response text
+    - `tool_start` — agent is calling a tool
+    - `tool_end`   — tool returned a result
+    - `done`       — stream finished
+    """
+    from agent.agent import astream_events
+
+    return StreamingResponse(
+        astream_events(req.messages),
+        media_type="text/event-stream",
+        headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
+    )
 
 
 # ═══════════════════════════════════════════════
