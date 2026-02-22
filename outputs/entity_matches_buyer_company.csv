@@ -1,0 +1,15 @@
+buyer_name,matched_cin,matched_company_name,match_score,match_type
+Mines  and Minerals Department,U14290AS2021PTC021189,STERLING MINES AND MINERALS PRIVATE LIMITED,0.6,procurement_buyer_to_company
+Mines  and Minerals Department,U14107AS2004PLC007488,PURBANCHAL MINES AND MINERALS LIMITED,0.6,procurement_buyer_to_company
+Mines  and Minerals Department,U43121AS2024PTC026343,VANTARA MINES AND MINERALS PRIVATE LIMITED,0.6,procurement_buyer_to_company
+Mines  and Minerals Department,U14200AS2010PTC010122,SPECTRUM MINES AND MINERALS PRIVATE LIMITED,0.6,procurement_buyer_to_company
+Mines  and Minerals Department,U14200AS2012PTC011185,NBR MINES AND MINERALS PRIVATE LIMITED,0.6,procurement_buyer_to_company
+Assam State Transport Corporation,U17116AS1980SGC001805,ASSAM STATE TEXTILE CORPORATION LIMITED,0.6,procurement_buyer_to_company
+Assam State Transport Corporation,U62100AS1974PTC001508,AIR TRANSPORT CORPORATION ASSAM PRIVATE LTD,0.6,procurement_buyer_to_company
+Assam Electricity Grid Corporation Ltd. - Externally Funded Projects,U40101AS2003SGC007238,ASSAM ELECTRICITY GRID CORPORATION LIMITED,0.5714,procurement_buyer_to_company
+Guwahati Smart City Ltd.,U45309AS2016SGC017403,GUWAHATI SMART CITY LIMITED,1.0,procurement_buyer_to_company
+Assam Power Distribution Company Limited-ADB,U40109AS2003SGC007242,ASSAM POWER DISTRIBUTION COMPANY LIMITED,0.75,procurement_buyer_to_company
+Assam Power Distribution Company Ltd,U40109AS2003SGC007242,ASSAM POWER DISTRIBUTION COMPANY LIMITED,1.0,procurement_buyer_to_company
+Assam Electricity Grid Corporation Ltd,U40101AS2003SGC007238,ASSAM ELECTRICITY GRID CORPORATION LIMITED,1.0,procurement_buyer_to_company
+Assam Police Housing Corporation Ltd,U45201AS1980SGC001845,ASSAM POLICE HOUSING CORPORATION LTD,1.0,procurement_buyer_to_company
+Assam Power Generation Company Limited,U40101AS2003SGC007239,ASSAM POWER GENERATION CORPORATION LIMITED,0.75,procurement_buyer_to_company

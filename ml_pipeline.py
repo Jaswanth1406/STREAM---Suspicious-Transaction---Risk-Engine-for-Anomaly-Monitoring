@@ -90,7 +90,8 @@ def engineer_features(raw_csv=RAW_DATA_CSV):
     Otherwise, a single CSV file is loaded.
     """
     if os.path.isdir(raw_csv):
-        csv_files = sorted([os.path.join(raw_csv, f) for f in os.listdir(raw_csv) if f.endswith(".csv")])
+        csv_files = sorted([os.path.join(raw_csv, f) for f in os.listdir(raw_csv)
+                            if f.endswith(".csv") and f.startswith("ocds_mapped_procurement_data")])
         df = pd.concat([pd.read_csv(f) for f in csv_files], ignore_index=True)
         print(f"🔧 Loaded {len(csv_files)} files → {len(df)} total rows")
     else:
@@ -376,7 +377,8 @@ def batch_score_all_datasets(datasets_dir=DATASETS_DIR, output_dir=OUTPUT_DIR):
     """Score every CSV in the datasets/ folder and save results to output_datasets/."""
     os.makedirs(output_dir, exist_ok=True)
 
-    csv_files = sorted([f for f in os.listdir(datasets_dir) if f.endswith(".csv")])
+    csv_files = sorted([f for f in os.listdir(datasets_dir)
+                         if f.endswith(".csv") and f.startswith("ocds_mapped_procurement_data")])
     if not csv_files:
         print(f"\n⚠️  No CSV files found in {datasets_dir}/")
         return

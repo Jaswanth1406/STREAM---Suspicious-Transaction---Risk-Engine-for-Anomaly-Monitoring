@@ -1,0 +1,1577 @@
+tender_id,anomaly_score,anomaly_flag,single_bid_flag,short_duration_flag,high_value_flag,explanation,requires_human_review
+2016_NHM_1087_1,0.3425983529767721,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_PWBNH_1088_1,0.0707642741513006,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_SSA_1163_1,0.23203780891436032,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DoWR_918_1,0.5444976070073206,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_919_1,0.46699455783332555,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_920_1,0.285252667568591,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_921_1,0.05205787726076827,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_SAG_917_1,0.3147003339909955,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_ICD_1090_1,0.2409481903971764,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1091_1,0.2824561654089147,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SSA_1092_1,0.23365718350876252,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SSA_1093_1,0.24151180876006206,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SSA_1094_1,0.27599985950438133,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SSA_1095_1,0.2765143283458755,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SSA_1096_1,0.3867203500008385,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_PWBNH_1272_1,0.35628939455169417,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_933_1,0.029019848620819966,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_BTC_934_1,0.07900620164514716,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_936_1,0.01058813152642124,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_BTC_935_1,0.217726701925825,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_BTC_935_2,0.019213534191434456,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_APHC_940_1,0.223767877141835,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_NHM_992_1,0.4760040156887073,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SWD_1030_1,0.571493282526438,0,1,1,1,Single/low bidder competition; Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_NHM_1097_1,0.39316241101738636,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_SSA_1098_1,0.23012756838553605,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SSA_1099_1,0.22866515773299567,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1100_1,0.16142206756603328,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_GMDA_1105_1,0.23175120902531865,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_PWBNH_1106_1,0.08326409819216818,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_SSA_1102_1,0.23041888835353808,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1103_1,0.28182365050221925,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1104_1,0.1786672582429294,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1101_1,0.2381651882282455,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SSA_1108_1,0.29005337844607093,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_GMDA_1273_1,0.41190999624379343,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_1275_1,0.06022625999587006,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PWBNH_944_1,0.029019848620819966,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DOT_946_1,0.08790068952484831,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DOT_945_1,0.3875662585665348,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_947_1,0.043140627986945845,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_BTC_951_1,0.030458002876074808,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_952_1,0.12742869488130837,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_PHED_950_1,0.32007523967568474,0,1,1,1,Single/low bidder competition; Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_PHED_950_2,0.3212595000300056,0,1,1,1,Single/low bidder competition; Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_PHED_950_3,0.29214127818267244,0,1,1,1,Single/low bidder competition; Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_NHM_948_1,0.08546064214850047,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_NHM_949_1,0.09874560075622607,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_ICD_953_1,0.06486120701532039,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_RMSA_954_1,0.10301733052888173,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PWBNH_955_1,0.04178544800633244,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DOT_957_1,0.3539725797738441,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_GMDA_956_1,0.2189744037232375,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_NHM_939_1,0.3736612158284569,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_941_1,0.036043945928653565,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_NHM_1032_1,0.16755787678330003,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_NHM_1109_1,0.10970048596286508,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_NHM_1111_1,0.18382262247282488,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_NHM_1032_2,0.16755787678330003,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_NHM_1112_1,0.005689128837793933,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_NHM_1113_1,0.4774223515588564,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_SSA_1107_1,0.157351603911421,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_ID_1186_1,0.22893913886922612,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_NRC_1189_1,0.14122343956753747,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_NHM_1177_1,0.05118504990508532,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_NHM_1184_1,0.07165441568618014,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_NHM_1185_1,0.035140106655249914,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PWBNH_1191_1,0.007789883263182751,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PWBNH_1193_1,0.019228360793931087,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_NHM_1277_1,0.32664083391056964,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_SSA_1278_1,0.16894134596764843,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SSA_1279_1,0.18429887117984833,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1280_1,0.16433879579386745,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1281_1,0.20096378144561378,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1283_1,0.21908302977216165,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_APHC_1284_1,0.2892396810050213,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_PWBNH_1276_1,0.035814645743273754,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_SSA_1282_1,0.28913014113149826,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_APHC_1285_1,0.26221821938937395,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_APHC_1286_1,0.2650848264469462,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_APHC_1287_1,0.28453674527088646,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_APHC_1288_1,0.2409946510481199,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DOT_961_1,0.5056842323726437,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DOT_962_1,0.5165185017505809,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DOT_963_1,0.4623123486011568,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DOT_964_1,0.3326040855874218,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_RMSA_965_1,0.07464485103458585,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PWBNH_966_1,0.028963634948448558,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_RMSA_967_1,0.12285071591727947,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_RMSA_968_1,0.1782175484804166,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_RMSA_969_1,0.1782175484804166,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_RMSA_970_1,0.21404327496724862,0,1,1,1,Single/low bidder competition; Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_RMSA_971_1,0.21404327496724862,0,1,1,1,Single/low bidder competition; Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_RMSA_972_1,0.1862308175314379,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_NHM_973_1,0.13049450592264922,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_NHM_974_1,0.26161118508284165,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_SSA_976_1,0.2520329500366466,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_977_1,0.22303535611849334,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_980_1,0.26365461901146414,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_993_1,0.03321976101243673,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_PWBNH_994_1,1.6989300818393005e-05,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PWBNH_995_1,0.01421303153059783,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PWBNH_997_1,0.08592980717819354,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_SSA_1033_1,0.310055006185163,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_PWBNH_1114_1,0.07889263343155217,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_PWBNH_1115_1,0.09274744810619773,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_NHM_1194_1,0.1769922485970531,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_HFWD_1187_1,0.42486337252104645,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_NHM_1164_1,0.10916978812707501,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_ICD_1190_1,0.48734141807011533,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_NHM_1274_1,0.015861909258230722,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PNRD_1289_1,0.17015269326657023,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DOT_1290_1,0.06652377434945111,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_HET_1291_1,0.14839540040393018,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_HET_1292_1,0.14839540040393018,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_HET_1294_1,0.14122343956753747,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_HET_1296_1,0.14122343956753747,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_HET_1295_1,0.14122343956753747,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_ICD_998_1,0.03000435180237815,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_SSA_1003_1,0.35787130040832915,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_UDD_1002_1,0.37754431119140297,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_ICD_1004_1,0.3331540067849412,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_NHM_1005_1,0.3327752593135431,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_NHM_1006_1,0.23048328780482985,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_NHM_1007_1,0.279192072691252,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_NHM_1008_1,0.02889521761107261,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DEE_1009_1,0.14892135826920072,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_PWBNH_1010_1,0.17412855733382782,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_1011_1,0.19541615137146107,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PWBNH_1012_1,0.15966564042732345,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DAASC_1013_1,0.7528649894459333,1,0,1,0,Tender duration is in lower quartile; IsolationForest outlier probability is elevated,Requires Human Review
+2016_DAASC_1014_1,0.8224507130997122,1,0,1,0,Tender duration is in lower quartile; IsolationForest outlier probability is elevated,Requires Human Review
+2016_DAASC_1015_1,0.21461295841317318,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_DAASC_1017_1,0.7356085211441286,1,0,1,0,Tender duration is in lower quartile; IsolationForest outlier probability is elevated,Requires Human Review
+2016_DAASC_1019_1,0.8508919849269158,1,0,1,0,Tender duration is in lower quartile; IsolationForest outlier probability is elevated,Requires Human Review
+2016_DAASC_1018_1,0.21461295841317318,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_DoWR_923_1,0.05342689108410481,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_924_1,0.10970048596286508,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_925_1,0.0899241023988746,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_926_1,0.10793907899921973,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_999_1,0.051700800396948465,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_NHM_1031_1,0.01421303153059783,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_GHC_1034_1,0.02755257104253761,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_GHC_1035_1,0.01421303153059783,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_APHC_1297_1,0.2651872315638759,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_1300_1,0.007789883263182751,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PHED_1301_1,0.3786538100148479,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_UDD_1053_1,0.2644673197039573,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoIT_1054_1,0.4860931905609861,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_1055_1,0.2654531387799487,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_BTC_1056_1,0.07384445534229644,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_BTC_1059_1,0.026040907676667224,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_BTC_1060_1,0.03480422651546322,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_BTC_1061_1,0.019228360793931087,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_BTC_1062_1,0.05665609231664215,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_BTC_1063_1,0.14399651719511342,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_DOT_1064_1,0.20875915408339762,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_FESA_1065_1,0.48643847197433676,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_FESA_1066_1,0.5032973222838615,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_FESA_1067_1,0.4339268689620369,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_FESA_1068_1,0.4856517953471581,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PWBNH_1069_1,0.11860266544710174,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_1070_1,0.0354286492239565,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PWBNH_1071_1,0.07889263343155217,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_PWBNH_1072_1,0.09274744810619773,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_PWBNH_1073_1,0.02585688892841087,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DOT_1074_1,0.23460875055384556,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DOT_1075_1,0.2840809720232498,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_DOT_1076_1,0.06587982175938623,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_SSA_1077_1,0.27926564537268395,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1078_1,0.25573462738589947,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_TAX_1058_1,0.14839540040393018,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_PHED_1079_1,0.4086651438817206,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_PHED_1079_2,0.4235233765308757,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_PHED_1079_3,0.3890725369502225,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_DoIT_1080_1,0.33419771562585665,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_BTC_1081_1,0.007098623495007561,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PWBNH_1082_1,0.04631804180541477,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_SSA_1083_1,0.38371648787984725,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_PNRD_986_2,0.031412564741170934,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PWBNH_1084_1,0.04574664531100503,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_BTC_1085_1,0.019213534191434456,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_BTC_1085_2,0.07339470578510954,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_BTC_1085_3,0.10158724849900169,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_BTC_1085_4,0.017356256118463587,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_BTC_1085_5,0.019757306879981007,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_BTC_1085_6,0.04838995210008612,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_BTC_1085_7,0.15261280889834128,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_DoWR_927_1,0.12413552640421799,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_928_1,0.09620564652037122,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_929_1,0.30798450518820375,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PHED_943_1,0.24873463874856694,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_DoWR_942_1,0.10463500054153507,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_NHM_1000_1,0.021384812773027395,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_APHC_1038_1,0.24833331440283657,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_APHC_1039_1,0.2164438331439753,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_APHC_1040_1,0.22592757814754594,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_APHC_1041_1,0.24804710286739517,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_APHC_1042_1,0.2777165089851329,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_APHC_1043_1,0.2777165089851329,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_APHC_1044_1,0.26858752065467617,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_APHC_1045_1,0.24771245151421517,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_APHC_1046_1,0.21616684384270757,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_APHC_1047_1,0.22564784620783374,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_PWBNH_1214_1,0.07830635732574076,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_SWD_1196_1,0.807246129979298,1,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile; IsolationForest outlier probability is elevated,Requires Human Review
+2016_SWD_1197_1,0.7852456926939927,1,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile; IsolationForest outlier probability is elevated,Requires Human Review
+2016_SWD_1198_1,0.7743789774839973,1,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile; IsolationForest outlier probability is elevated,Requires Human Review
+2016_SWD_1199_1,0.518211285328763,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SWD_1200_1,0.4515046813855613,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SWD_1201_1,0.5896108670874232,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SWD_1202_1,0.5994552241342863,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SWD_1203_1,0.3640776099735654,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SWD_1204_1,0.39324375984779114,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SWD_1205_1,0.4692066953092914,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SWD_1206_1,0.42131403485296814,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SWD_1207_1,0.45524928063968717,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SWD_1208_1,0.44265411658129417,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SWD_1209_1,0.4213726345820312,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SWD_1210_1,0.4525029439991729,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SWD_1211_1,0.41837895519005164,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SWD_1212_1,0.37757490865350507,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SWD_1213_1,0.8848929197232633,1,0,1,0,Tender duration is in lower quartile; IsolationForest outlier probability is elevated,Requires Human Review
+2016_SSA_1215_1,0.2381651882282455,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SSA_1216_1,0.3141760912025111,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SSA_1217_1,0.27587771369172986,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SSA_1218_1,0.2826970011502993,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SSA_1219_1,0.2948642084607229,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SSA_1220_1,0.30730886608475916,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_WPTBC_1293_1,0.23203780891436032,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_NHM_1116_1,0.03409152015353678,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_NHM_1117_1,0.10752573312281732,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_NHM_1118_1,0.008293367176710142,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_NHM_1119_1,0.03372561258923201,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_NHM_1120_1,0.0908182460920216,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_NHM_1121_1,0.06433512916685191,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PWBNH_1126_1,0.07889263343155217,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_PWBNH_1127_1,0.09274744810619773,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_PWBNH_1128_1,0.006811908178480763,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_HFWD_1122_1,0.8547498991337067,1,1,0,0,Single/low bidder competition; IsolationForest outlier probability is elevated,Requires Human Review
+2016_GHC_1132_1,0.06486120701532039,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_SSA_1133_1,0.36331761607540014,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DAASC_1130_1,0.343115395188195,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_HFWD_1124_1,0.4439792344067188,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PWBNH_1134_1,0.1089852949974559,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_ICD_1129_1,0.5347750073181408,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_ID_1135_1,0.061182082367330026,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DOT_1137_1,0.29375727276851915,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_UDD_1138_1,0.2644673197039573,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DOT_1139_1,0.26013971988349127,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_SSA_1140_1,0.31481553015253816,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1141_1,0.35701665200916377,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DOT_1139_2,0.3273699094550021,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_NHM_1142_1,0.31560798302910154,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_DOT_1143_1,0.5165185017505809,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_930_1,0.34998049138631826,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_SSA_1221_1,0.19586174402929435,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1222_1,0.2376114945517367,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1223_1,0.2867343619716839,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SSA_1224_1,0.2836794836457558,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_PWBNH_1225_1,0.008761767964505562,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_NHM_1228_1,0.03372561258923201,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_TTWD_1235_1,0.29175078835240076,0,1,1,1,Single/low bidder competition; Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_SSA_1237_1,0.1676684977057996,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_PWBNH_1236_1,0.5818233887908428,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_SCD_1229_1,0.07009862440810843,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_SCD_1230_1,0.07177331450222668,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_SCD_1231_1,0.05361014234347705,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_SCD_1232_1,0.07500420799322316,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_SCD_1233_1,0.1078396530450253,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_SCD_1234_1,0.024776719844621375,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_SCD_1239_1,0.13130271142521466,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_SCD_1240_1,0.15929360758911282,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_HFWD_1238_1,0.46364934490161214,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_PWBNH_1244_1,0.05342689108410481,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_ICD_1245_1,0.4229172922974965,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_HFWD_1242_1,0.39981718622217943,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_GHC_1243_1,0.06486120701532039,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_GHC_1248_1,0.07001458307613084,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_GHC_1249_1,1.6989300818393005e-05,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_GHC_1251_1,0.19918001647710515,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_SSA_1252_1,0.15252400258168275,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1253_1,0.31481553015253816,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1254_1,0.3365120186473357,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DAASC_1247_1,0.5993425171771627,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DAASC_1250_1,0.6972264542712014,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_NHM_1255_1,0.06294378642698806,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_HFWD_1256_1,0.4399306341524475,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_SSA_1257_1,0.4326417515632578,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_ICD_1264_1,0.03321976101243673,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_HFWD_1259_1,0.4216629436500563,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_HFWD_1260_1,0.4936255253283418,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_HFWD_1261_1,0.48261666804610703,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_HFWD_1262_1,0.5843284173975883,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_HFWD_1263_1,0.4421840276201957,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_NHM_1265_1,0.06368215445168635,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_DoIT_1268_1,0.05118504990508532,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_SSA_1267_1,0.2678377573526475,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DoWR_931_1,0.27265797602692365,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_932_1,0.025133986056215418,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DOT_959_1,0.2808652764134315,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_960_1,0.11937471237303698,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_1001_1,0.1392895325187007,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_APHC_1048_1,0.378081452113221,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_APHC_1049_1,0.21708749963334273,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_APHC_1050_1,0.29318057869401437,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_APHC_1051_1,0.25151631529658836,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_PWBNH_1052_1,0.5172915872464061,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_DEE_1227_1,0.21461295841317318,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_NHM_1195_1,0.007098623495007561,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_BTC_1299_1,0.005446649080700805,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1150_1,0.09639649574954434,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1154_1,0.05265273022675854,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1157_1,0.10974759565877312,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1181_1,0.13658721815603259,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1182_1,0.14853647426465177,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1183_1,0.10887641333847398,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1302_1,0.12408910872598333,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_AP_1305_1,0.14122343956753747,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1304_1,0.0855535213079539,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_SNT_1307_1,0.478993490196824,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_1308_1,0.5788714673759847,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_1314_1,0.05342689108410481,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoIT_1316_1,0.02585688892841087,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1156_1,0.031776910167638506,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1170_1,0.10370317057330147,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1309_1,0.20684020072639275,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1310_1,0.17360125488808675,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1311_1,0.2284636053280511,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1318_1,0.05403378068348641,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1319_1,0.056314926570384505,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1320_1,0.15856746874442607,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_ICD_1313_1,0.26859251051598154,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_BTC_1315_1,0.01339982705034437,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_BTC_1315_2,0.005934807987184709,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_BTC_1315_3,0.002045945138626326,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_BTC_1315_4,0.0015141944198419077,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_BTC_1315_5,0.09883886137382913,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_BTC_1317_1,0.0797044436502764,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_BTC_1317_2,0.013982018618336811,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_BTC_1317_3,0.0010594138420503274,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_FESA_1321_1,0.5353055621300792,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_FESA_1322_1,0.6364113681933686,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_HFWD_1323_1,0.8614353583215534,1,1,0,0,Single/low bidder competition; IsolationForest outlier probability is elevated,Requires Human Review
+2016_SYWA_1325_1,0.27665415912914637,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_PWBNH_1330_1,0.5594917597592759,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_1331_1,0.555213353463841,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_1332_1,0.5788714673759847,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_WPTBC_1324_1,0.23203780891436032,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_WPTBC_1326_1,0.36449695352047295,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_WPTBC_1327_1,0.25410527610482836,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_WPTBC_1328_1,0.35011498817188247,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_HFWD_1329_1,0.4631000999345448,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_ICD_1303_1,0.05831095196578395,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_ICD_1312_1,0.024780475938741553,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_PWBNH_1336_1,0.06831997874159812,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_DOT_1337_1,0.10718888111021163,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_SSA_1339_1,0.1587739060588087,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1341_1,0.38471802660996846,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_FESA_1340_1,0.5850751850373166,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_FESA_1342_1,0.6092589953092559,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_FESA_1343_1,0.39617521596045624,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_ICD_1338_1,0.18550555105438993,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DoIT_1349_1,0.237300989455294,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DoWR_1346_1,0.23448035612555385,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1347_1,0.2747215452417896,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_AP_1351_1,0.06486120701532039,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1348_1,0.3501670360526228,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1147_1,0.19001371948034573,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1352_1,0.3506543692766617,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1353_1,0.32493091925822803,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1354_1,0.22112079518310102,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1355_1,0.20707472674037464,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1160_1,0.07227665423731422,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1356_1,0.244144947220294,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1358_1,0.15128058502790553,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1359_1,0.3066608834593477,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1360_1,0.183002517693308,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_ICD_1350_1,0.21438107373386928,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DoWR_1361_1,0.1991464088803826,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_AP_1362_1,0.06486120701532039,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1148_1,0.08288953524654508,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1161_1,0.2888857044607003,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1167_1,0.09141983382542274,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1363_1,0.12170909224432347,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1365_1,0.1764514178751635,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1366_1,0.16491579555278402,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1367_1,0.15678441946099353,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1151_1,0.1081460019051732,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1368_1,0.15961882202926214,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1369_1,0.2578849560426605,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1370_1,0.23459737771024702,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_AP_1371_1,0.03321976101243673,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_ICD_1357_1,0.2485434464038785,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DoIT_1372_1,0.02755257104253761,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_NHM_1364_1,0.30702223991739985,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_PHED_1384_1,0.3934791694605452,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_PHED_1388_1,0.2232732294148716,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_AP_1389_1,0.06486120701532039,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_PHED_1390_1,0.2210825586066988,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DoWR_1149_1,0.22511883962034085,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1159_1,0.024157117025567,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1373_1,0.48408697355210584,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DoWR_1374_1,0.7257976402819603,1,0,1,0,Tender duration is in lower quartile; IsolationForest outlier probability is elevated,Requires Human Review
+2016_DoWR_1375_1,0.16149950999856166,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1376_1,0.6721732692870545,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DoWR_1377_1,0.6731299667778434,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DoWR_1378_1,0.034369656841099716,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1379_1,0.7814702728307744,1,0,1,0,Tender duration is in lower quartile; IsolationForest outlier probability is elevated,Requires Human Review
+2016_DoWR_1380_1,0.6304864333600058,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DoWR_1382_1,0.7311308177437544,1,0,1,0,Tender duration is in lower quartile; IsolationForest outlier probability is elevated,Requires Human Review
+2016_DoWR_1381_1,0.05118504990508532,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1385_1,0.13175060675657924,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1386_1,0.1902400933985975,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1387_1,0.3481302877199739,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1391_1,0.025768097130391743,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1392_1,0.06382505115399062,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1146_1,0.08873667378387662,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1393_1,0.034369656841099716,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1394_1,0.15479379840183605,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1395_1,0.251788644021236,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1396_1,0.11363746212117165,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1397_1,0.08150995476730016,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1152_1,0.12670555672196093,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1172_1,0.1301202579638866,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1173_1,0.4720783697099461,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1178_1,0.2472726173521812,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1398_1,0.3680589971070085,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1399_1,0.23545633098203111,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1400_1,0.16706242815330707,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1401_1,0.1045635608337887,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1402_1,0.24288725314727933,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1179_1,0.5623339118049493,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1403_1,0.2006157549102917,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1404_1,0.5748684021806907,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1405_1,0.18794073747419549,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1180_1,0.4381585447354416,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_WPTBC_1383_1,0.73273022846265,1,0,0,0,IsolationForest outlier probability is elevated,Requires Human Review
+2016_SNT_1407_1,0.13671097951702826,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DOT_1409_1,0.05265273022675854,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_HFWD_1323_2,0.8520524242893597,1,1,0,0,Single/low bidder competition; IsolationForest outlier probability is elevated,Requires Human Review
+2016_PHED_1421_1,0.21128286271374763,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_PWBNH_1418_1,0.5578469616664681,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1175_1,0.07194959148559976,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1176_1,0.37653731859633244,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1410_1,0.035160361539176566,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1412_1,0.0017549084612012988,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1414_1,0.0020834419592540288,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1417_1,0.017337033010287106,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1419_1,0.03696604344668919,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1422_1,0.05764455552796366,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1423_1,0.06749938988211113,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1424_1,0.29022244138115694,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1425_1,0.1369459873443386,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1426_1,0.31868347242987305,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1427_1,0.07786474398813692,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1428_1,0.05399261705162861,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1429_1,0.39591077673781805,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1430_1,0.05528891680643977,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1431_1,0.26505618089090777,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1432_1,0.035530225898128265,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1433_1,0.3962846720156318,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1434_1,0.03627364783140641,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1435_1,0.2655539351734272,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1436_1,0.06913297448900102,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1438_1,0.005989193853015329,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1439_1,0.05764455552796366,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1441_1,0.05088597094074343,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1442_1,0.019440451907267287,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1443_1,0.08944732834396674,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1444_1,0.037614914624571005,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1445_1,0.05761955144998987,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1446_1,0.06843683029794934,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1447_1,0.015275416770398564,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1448_1,0.2189826771007225,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1449_1,0.16147894413771025,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1450_1,0.13824391960149363,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1451_1,0.3011171036488979,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1452_1,0.20394280756175065,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1453_1,0.08002701940570023,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1454_1,0.32442073021384144,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1455_1,0.09123079904700093,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1456_1,0.19448446946625597,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1457_1,0.16520226778774305,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1458_1,0.13314341334915913,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1459_1,0.27420916351234603,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1460_1,0.2318678289527828,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1174_1,0.09972880298279074,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1411_1,0.09841500401589809,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1413_1,0.33042062788332527,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1415_1,0.42664409277757276,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1416_1,0.28720599906399713,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1437_1,0.19443860228971832,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1440_1,0.10755646174184441,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1461_1,0.27593289710138647,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1462_1,0.2991657291097729,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1153_1,0.03972489295634707,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1155_1,0.09297312424310766,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1158_1,0.0734701784963342,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1171_1,0.06974991738700798,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1333_1,0.10433358215976529,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1334_1,0.15852207933558748,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1335_1,0.1651388290512683,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1463_1,0.08004865569067521,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_BTCWR_1464_1,0.05265951378228739,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_BTCWR_1465_1,0.05349633299150114,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_BTCWR_1465_2,0.03383893861245424,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_BTCWR_1464_2,0.036021430450378644,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1466_1,0.03716531019621261,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_BTCWR_1465_3,0.03475663167859311,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_BTCWR_1464_3,0.036021430450378644,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_BTCWR_1465_4,0.03475663167859311,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1467_1,0.06602424912958915,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1468_1,0.004551243436304864,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1469_1,0.01699515481153624,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1471_1,0.051700800396948465,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1472_1,0.020661907252600864,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1473_1,0.08745933597513278,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1474_1,0.03504681641292362,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1475_1,0.15980399532173517,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1476_1,0.1612906521973272,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1477_1,0.10025747710266364,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1479_1,0.08351440847683245,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1478_1,0.03184260821591223,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1480_1,0.22278430924144466,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1481_1,0.13192875639846025,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1482_1,0.031353666866186125,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1483_1,0.013982018618336811,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1470_1,0.051210108986025515,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_DoWR_1484_1,0.0672897567751436,0,1,0,0,Single/low bidder competition,Requires Human Review
+2016_DoWR_1485_1,0.15105553053243703,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_BTC_1487_1,0.023390954270093745,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_NHM_1486_1,0.4194459436374459,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2016_DEE_1490_1,0.21461295841317318,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_SSA_1491_1,0.18717942945830213,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_DEE_1492_1,0.14839540040393018,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DoWR_1495_1,0.0926109772797924,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2016_ICD_1489_1,0.14122343956753747,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2016_DoWR_1493_1,0.4479736356062666,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_DoWR_1494_1,0.319975281643068,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DOT_1654_1,0.1433770209787968,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_1788_1,0.007098623495007561,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1788_2,0.0015596069172113536,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1788_3,0.00592103152454726,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1788_4,0.006811908178480763,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1788_5,0.0025483995483757127,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_AHVD_1798_1,0.6502168850528133,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_NHM_2043_1,0.32337883751031704,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_ICD_2042_1,0.2911998726478623,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_DOT_2035_1,0.03995967345086204,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_ICD_2182_1,0.19789273989547018,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_2189_1,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2189_2,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2189_3,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2189_4,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2189_5,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2189_6,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2189_7,0.025235822652445505,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2189_8,0.002045945138626326,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2189_9,0.0015596069172113536,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2189_10,0.0008746225873487168,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HFWD_2188_1,0.4399306341524475,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_2338_1,0.08893433274006668,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_2338_2,0.08785344511217474,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_2338_3,0.07393568448907206,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_2338_4,0.06899458391254532,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_2338_5,0.08490802832184341,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_2338_6,0.0013859852486080015,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2338_7,0.00311214513449265,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2338_8,0.0014327682017076793,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2338_9,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2338_10,0.002045945138626326,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2338_11,0.0416395080932912,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2338_12,0.0416395080932912,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2338_13,0.0077206566181947656,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2338_14,0.025828386158798677,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_2338_15,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2338_16,0.06708902439884257,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_2338_17,0.015515861778640727,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2338_18,0.0018749398935832273,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2346_1,0.012868269519105913,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_2348_1,0.08170645460994796,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_ICD_2348_2,0.0680972096078617,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_2348_3,0.08181714700337273,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_2348_4,0.07525189618774886,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_2348_5,0.06382505115399062,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_2348_6,0.048575318776136966,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_2348_7,0.0783159390419268,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_ICD_2348_8,0.046282301917175084,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_2348_9,0.07764323520281347,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_NHM_2349_1,0.0499148784806801,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2344_1,0.03504681641292362,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWD_2358_1,0.04087623841140131,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_2358_2,0.04964724256722608,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_2358_3,0.07471537890585311,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_2582_1,0.13901958568455097,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_2582_2,0.13901958568455097,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_2582_3,0.13901958568455097,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_2582_4,0.13901958568455097,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTCWR_2583_1,0.03194048616063516,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTCWR_2583_2,0.019636481240276837,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTCWR_2583_3,0.02823361396462687,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTCWR_2584_1,0.03194048616063516,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTCWR_2584_2,0.03194048616063516,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTCWR_2584_4,0.04195938953860756,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTCWR_2584_5,0.019636481240276837,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTCWR_2584_6,0.04195938953860756,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTCWR_2584_7,0.0077206566181947656,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_2585_1,1.6989300818393005e-05,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTCWR_2584_9,0.03194048616063516,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PHED_2574_1,0.4826987173563838,0,1,1,1,Single/low bidder competition; Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2017_PWBNH_2591_1,0.04288900208514934,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PHED_2590_1,0.4422485392944533,0,1,1,1,Single/low bidder competition; Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2017_HE_2592_1,0.3972401133972808,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_HE_2592_2,0.4438491785381926,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_HE_2592_3,0.40925485475528856,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_HE_2592_4,0.3972401133972808,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_HE_2592_5,0.3972401133972808,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_BTC_2854_1,0.06329326183473583,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_2855_1,0.04653111726443404,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_2856_1,0.022951687545228916,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_2857_1,0.0857842069609881,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_2859_1,0.030370681805406807,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_2860_1,0.0310165174297119,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HFWD_2489_43,0.526387490284888,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_HFWD_2489_44,0.537025767696757,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_HFWD_2489_45,0.5935211647493858,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_HFWD_2489_46,0.5530704885480144,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_HFWD_2489_47,0.5530704885480144,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_NHM_3110_1,0.06328805633853518,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_3129_1,0.06328805633853518,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_3130_1,0.028446994722226338,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_3131_1,0.028446994722226338,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_3132_1,0.028446994722226338,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_3133_1,0.06328805633853518,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3113_1,0.046282301917175084,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3113_2,0.07091493695159434,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_3113_3,0.019440451907267287,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3113_4,0.0002566484746771014,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3113_5,0.006929907903780896,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DAASC_3117_1,0.18406144751703146,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_5,0.2842492573109836,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_6,0.3387777331226691,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_7,0.29057286098268686,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_8,0.3041276802726517,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_9,0.3041276802726517,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_10,0.2842492573109836,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_11,0.2842492573109836,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_12,0.28131765184989244,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_13,0.3387777331226691,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_14,0.3387777331226691,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_15,0.3387777331226691,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_HE_3140_1,0.3390998857644162,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_HE_3140_2,0.34134810666492665,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_HE_3140_3,0.3390998857644162,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_HE_3140_4,0.34134810666492665,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_HE_3140_5,0.3437398715882949,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_16,0.3387777331226691,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_17,0.3122157327536026,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_18,0.3122157327536026,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_19,0.29057286098268686,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_20,0.3122157327536026,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_21,0.3122157327536026,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_22,0.3122157327536026,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_RMSA_3121_23,0.3387777331226691,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_HFWD_2489_49,0.526387490284888,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_HFWD_2489_50,0.526387490284888,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_HFWD_2489_48,0.537609551525442,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWBNH_3700_1,0.20334793267439943,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWBNH_3712_1,0.05297187728177999,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BoTC_3733_1,0.22780973444320607,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_HFWD_3725_1,0.6700058662232123,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HFWD_3727_1,0.675164190454708,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HFWD_3728_1,0.6700058662232123,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ID_3741_1,0.15318163985999844,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_TTWD_3744_1,0.17428457230926075,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2017_PWD_4083_1,0.02823361396462687,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_4098_1,0.02361364109508468,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_4099_1,0.019228360793931087,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_4100_1,0.01608978887961754,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_4101_1,0.019608767806325922,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_4102_1,0.002328790347404408,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_4103_1,0.00311214513449265,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_4091_1,0.013982018618336811,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_4088_1,0.0672897567751436,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_4090_1,0.06415442881544087,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_4104_1,0.0077206566181947656,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_4105_1,0.00311214513449265,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_4107_1,0.0736248947287742,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_4107_2,0.0839456928284229,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_4107_3,0.028963634948448558,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_4107_4,0.002700321199096023,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_4108_1,0.01421303153059783,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_4110_1,0.0634594242151254,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_4110_2,0.0416395080932912,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_GMC_4081_1,0.03321976101243673,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_SSA_4085_1,0.07129721436649727,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_SSA_4086_1,0.055926644408034965,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_4115_1,0.15511310100921571,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWBNH_4118_1,0.02987403057423088,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HFWD_4106_1,0.2356130789038784,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_PWBNH_4122_1,0.12900968696171333,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWBNH_4123_1,0.2670507207757177,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWBNH_4124_1,0.13116271796309953,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWBNH_4125_1,0.0470820521020503,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_1584_1,0.5593132970466087,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DAASC_1581_1,0.37801883882747156,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_ASAMB_1582_1,0.46381056688586453,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1573_1,0.004270566796763742,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1573_2,0.02585688892841087,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1573_3,0.0077206566181947656,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1573_4,0.07057186654052217,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1573_5,0.006811908178480763,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1573_6,0.0077206566181947656,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1573_7,0.045440567297067136,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1573_8,0.07218092282485145,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1573_9,0.06708902439884257,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1573_10,0.002045945138626326,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1573_11,0.0002566484746771014,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1573_12,0.019440451907267287,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1573_13,0.005689128837793933,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1573_14,0.018856777256661683,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_1,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_2,0.005446649080700805,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_3,0.010672617961876796,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_4,0.008761767964505562,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_5,0.0,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_6,0.00311214513449265,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_7,0.006811908178480763,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_8,0.0006210458143965925,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_9,0.0049823009341194435,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_10,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_11,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_12,0.00020347250161401043,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_13,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_14,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_15,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_16,0.004551243436304864,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_17,0.0010594138420503274,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1580_18,0.023996827815026323,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1585_1,0.20525159179796204,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWBNH_1578_1,0.0657799665999178,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1583_1,0.04835864310417903,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ID_1588_1,0.2554623975958975,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2017_ID_1589_1,0.2817925268349888,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_ID_1590_1,0.30212746552327985,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_PWD_1542_1,0.10605996390201822,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_2,0.12165405777993832,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_3,0.1871216986624794,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_4,0.11607023232107772,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_5,0.10210241878459536,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_6,0.05823378181647565,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_7,0.09443791152367653,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_8,0.1871216986624794,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_9,0.05246795679253313,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_10,0.07227665423731422,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_11,0.16174816333953745,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_12,0.07507427125213562,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_13,0.10764680690004458,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_14,0.024780475938741553,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_15,0.024780475938741553,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_16,0.05205787726076827,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWD_1542_17,0.0282762207085977,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_18,0.06831997874159812,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_19,0.0674580827340131,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_20,0.08548569165809083,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_22,0.11295932831216615,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_23,0.06692512898217562,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_24,0.06587982175938623,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_25,0.05721215011241565,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_27,0.0663437573065433,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_28,0.05713971189305478,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_29,0.14955129649485577,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_30,0.0734701784963342,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_31,0.051700800396948465,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_32,0.06690187773000711,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_33,0.04161242060808701,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_34,0.03461180866070068,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_35,0.051987726394932654,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWD_1542_36,0.06368215445168635,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_37,0.062320492069687816,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_38,0.05721215011241565,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_39,0.03839976239816412,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_40,0.06141333412863381,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_41,0.020661907252600864,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_42,0.06141333412863381,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_43,0.09274941556847949,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_44,0.06319158124993851,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_45,0.12730243292839138,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_46,0.01710364074594195,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_47,0.024780475938741553,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_48,0.07507427125213562,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_49,0.19127739125885057,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_50,0.10764680690004458,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_51,0.043140627986945845,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_52,0.08365218961095333,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_53,0.08869109416822019,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_54,0.04748452835119987,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_55,0.08303634898110701,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_56,0.051700800396948465,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_57,0.09576168909785288,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1542_58,0.0663437573065433,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_59,0.1789519952748998,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_60,0.0977939630592437,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_61,0.1416930575810864,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_62,0.11188254140808096,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_63,0.051700800396948465,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_64,0.07944965602616061,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_65,0.058290197693907864,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1542_66,0.04032441073775639,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_1586_1,0.07518398908651103,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1586_2,0.06827882847817757,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1586_3,0.10885863887260139,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1586_4,0.08004865569067521,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1586_5,0.0077206566181947656,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1586_6,0.0077206566181947656,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1586_7,0.0873244048318238,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1586_8,0.09162709696712357,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1586_9,0.019636481240276837,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1586_10,0.04654879930166422,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1586_11,0.05325151983769405,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1586_12,0.0014327682017076793,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1586_13,0.015275416770398564,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1586_14,0.006865551160574301,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1586_15,0.04195938953860756,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1586_16,0.0416395080932912,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HFWD_1587_1,0.39773829897694757,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1593_1,0.04089677974074801,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1594_1,0.06837108807476933,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HFWD_1595_1,0.39773829897694757,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HFWD_1596_1,0.47275912451576274,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1591_1,0.016385699446275326,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1591_2,0.016060314877688886,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1591_3,0.015750530501988158,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1591_4,0.01656171965338804,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1591_5,0.016385699446275326,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1591_6,0.014366498511223735,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1591_7,0.01736745445764476,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1591_8,0.017518405786019597,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1591_9,0.022694504139756266,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1591_10,0.006865551160574301,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1591_11,0.008690949751052224,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1591_12,0.07031159817714594,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1591_13,0.07114882938790812,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1591_14,0.06940683182852314,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1591_15,0.020504239177457473,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1591_16,0.004613606986286545,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1591_17,0.020230126356700295,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1591_18,0.01421303153059783,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1592_1,0.06319158124993851,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_1592_2,0.38407320860332905,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1592_3,0.15997963216686772,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1592_4,0.3325202756147151,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1592_5,0.041660422409083075,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1592_6,0.056240548245653166,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWBNH_1600_1,0.3912045804137728,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoIT_1599_1,0.10916978812707501,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_1597_1,0.22800817088534897,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_FCS_1598_1,0.6201900808383054,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2017_BTC_1603_1,0.005446649080700805,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1603_2,0.017337033010287106,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1603_3,0.0013859852486080015,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1603_4,0.005989193853015329,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1603_5,0.006006616914565943,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1603_6,0.006865551160574301,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1603_7,0.006865551160574301,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1603_8,0.006006616914565943,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1603_9,0.0054128632259276,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_1,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_2,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_3,0.002328790347404408,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_4,0.02615912200112802,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_5,0.02225713337586932,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_6,0.0020490481928961968,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_7,0.05418815004502531,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_8,0.0552484823324888,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_9,0.006275450373626423,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_10,0.018708155632799373,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_11,0.0008746225873487168,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_12,0.027654699787625803,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_1604_13,0.06824408039892937,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1604_14,0.0077206566181947656,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_15,0.0,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_16,0.05966412154889866,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1604_17,0.07518398908651103,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1604_18,0.002045945138626326,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_19,0.003664625715184222,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_20,0.047089912118583266,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1604_21,0.06899458391254532,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1604_22,0.07032757068634887,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1604_23,0.0077206566181947656,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1604_24,0.0077206566181947656,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1612_1,0.0663437573065433,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_1601_1,0.08713090036020787,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_1602_1,0.0416395080932912,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1602_2,0.02016424106205328,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1602_3,0.019636481240276837,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1605_1,0.0015141944198419077,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1605_2,0.005934807987184709,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1605_3,0.002045945138626326,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1605_4,0.01339982705034437,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1608_1,0.23662978387572609,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_SYWA_1614_1,0.28096414996608887,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_PWBNH_1616_1,0.04161242060808701,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1617_1,0.0010594138420503274,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_HFWD_1323_3,0.8520524242893597,1,1,0,0,Single/low bidder competition; IsolationForest outlier probability is elevated,Requires Human Review
+2017_ID_1606_1,0.026058173012914687,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_ID_1607_1,0.041950617001038415,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_ID_1609_1,0.029338809912174968,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ID_1610_1,0.026252525645599212,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_ID_1611_1,0.03325176828243581,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1618_1,0.019440451907267287,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1615_1,0.006811908178480763,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_SSA_1628_1,0.18387684613261512,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_DOT_1635_1,0.040534764387131106,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWBNH_1634_1,0.14110911913536117,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PHED_1638_1,0.4141107755712703,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2017_AP_1640_2,0.26867929133839696,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_SNT_1642_1,0.4894048631015516,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1620_1,0.015087087070094984,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1621_1,0.05615499782160971,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1623_1,0.3251131464835475,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1624_1,0.030380574757534973,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1625_1,0.05403378068348641,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1626_1,0.04669737793751272,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1627_1,0.0634594242151254,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1629_1,0.17724419716466044,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1630_1,0.12786284725020414,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1631_1,0.571351913201373,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1632_1,0.464619290562051,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1633_1,0.4840681135315261,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1636_1,0.47064231175113436,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1637_1,0.5173087598579482,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1639_1,0.27543356656408624,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1641_1,0.05205787726076827,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1613_1,0.00020347250161401043,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_2,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_3,0.025690157501716326,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_4,0.030858578106218948,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_5,0.04288900208514934,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_6,0.006865551160574301,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_7,0.005302478866390459,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_8,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_9,0.004270566796763742,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_10,0.004270566796763742,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_11,0.004613606986286545,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_12,0.002045945138626326,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_13,0.00592103152454726,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_14,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_15,0.006752075689319792,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_16,0.0010594138420503274,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_17,0.007732588319980915,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_18,0.006811908178480763,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_19,0.005934807987184709,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1613_20,0.005918034021074048,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1619_1,0.07889263343155217,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1619_2,0.07832420559456743,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_ICD_1643_2,0.09764024041260944,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_1643_3,0.08911027094159096,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1645_1,0.0168880669189444,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DOT_1644_1,0.06368215445168635,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_DHTS_1646_1,0.1464477256394272,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DHTS_1646_2,0.0389663720790705,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DHTS_1646_3,0.0872862031025532,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DHTS_1646_4,0.05478024466014797,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DHTS_1646_5,0.11116599696933094,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DHTS_1646_6,0.05687548626454697,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_HET_1647_1,0.21461295841317318,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_BTC_1648_1,0.013130858919645272,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1648_2,0.02016424106205328,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1649_1,0.05721215011241565,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_1650_1,0.01608978887961754,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1651_1,0.019636481240276837,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1651_2,0.0015596069172113536,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1651_3,0.039077733467444586,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1651_4,0.03473109729024415,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1651_5,0.02907913333829193,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1651_6,0.07518398908651103,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1651_7,0.08897452552579055,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1651_8,0.06824408039892937,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1651_9,0.018856777256661683,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1651_10,0.016972126739314586,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1651_11,0.0077206566181947656,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1651_12,0.005911255898420342,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1651_13,0.07906680489981821,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1651_14,0.0020834419592540288,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1651_15,0.028991459849934786,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1651_16,0.0015596069172113536,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_1,0.011069580771793097,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_2,0.007474971610669567,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_3,0.0010594138420503274,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_4,0.09127175492462947,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1652_5,0.06990262938433467,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1652_6,0.0049823009341194435,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_7,0.005911255898420342,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_8,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_9,0.006811908178480763,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_10,0.006811908178480763,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_11,0.019636481240276837,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_12,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_13,0.005185471289656629,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_14,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_15,0.020736066129710684,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_16,0.0077206566181947656,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_17,0.033656102877216654,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_18,0.026401888408918772,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_19,0.04225128253890287,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_20,0.0018635848019733503,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_21,0.0002566484746771014,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_22,0.006885330457741312,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_23,0.00592103152454726,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_24,0.005911255898420342,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1652_25,0.008114419969282305,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_ICD_1338_2,0.23080516382564864,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_DLW_1653_1,0.3207612211152827,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_DLW_1653_2,0.3657626518047562,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_DLW_1653_3,0.3938474856208407,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_DoIT_1655_1,0.4361040130639826,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1656_1,0.11860266544710174,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1657_1,0.06602424912958915,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1658_1,0.1388562171629938,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_DoWR_1500_1,0.21818373153333515,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2016_NHM_1496_1,0.13784279221828477,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_DoWR_1498_1,0.2974984501008622,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_DoWR_1499_1,0.15078343014572004,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_DoWR_1501_1,0.21802973174238316,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_HET_1503_1,0.14839540040393018,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_DoWR_1502_1,0.3000442184720926,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_PNRD_1661_1,0.025690157501716326,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1659_1,0.0168880669189444,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1659_2,0.004026932620882495,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1659_3,0.015515861778640727,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1659_4,0.07785684251673308,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1659_5,0.06708902439884257,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1659_6,0.005446649080700805,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1659_7,0.08853831504724452,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1659_8,0.1070456056419622,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1659_9,0.07384445534229644,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1659_10,0.07091293146579991,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1659_11,0.0013859852486080015,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1659_12,0.06720381855334878,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1659_13,0.07361070348042187,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1659_14,0.0010594138420503274,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1659_15,0.0011945878725357906,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1659_16,5.2317894026820966e-05,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1659_17,0.007079176755988015,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1659_18,0.005689128837793933,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1659_19,0.10989707243818869,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1659_20,0.005302478866390459,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1659_21,0.003664625715184222,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1659_22,0.014174011431491662,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1659_23,0.007200377267373881,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1659_24,0.13770326330102944,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_1662_1,0.08939765190303406,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1663_1,0.04195938953860756,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1665_1,0.05352037525975062,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1666_1,0.08405314837616318,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1664_1,0.03184260821591223,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWBNH_1800_1,0.1388582352867469,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_1801_1,0.14954577502195976,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_1802_1,0.14641400626868872,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_1803_1,0.14641400626868872,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_1804_1,0.1433283640339046,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_1805_1,0.1433283640339046,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_1806_1,0.13996265433808652,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_1807_1,0.06969927136705945,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_1808_1,0.05418815004502531,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1809_1,0.06504033812995258,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_1810_1,0.041383498680705344,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1811_1,0.07730878157514509,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_ICD_1813_1,0.024780475938741553,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_2190_1,0.21406373361541442,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_2191_1,0.2256985848678823,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_2192_1,0.06141333412863381,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_2195_1,0.28649241687389726,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_2196_1,0.25831241136434935,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_2197_1,0.2208864138013944,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWBNH_2199_1,0.07093033073980559,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_2200_1,0.03839976239816412,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_2198_1,0.033948952744787264,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoIT_2201_1,0.05118504990508532,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_FCS_2202_1,0.5964474266303968,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_FCS_2203_1,0.396527315891144,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ID_2352_1,0.0018635848019733503,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_2353_2,0.13313860765545948,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_ID_2352_2,0.005302478866390459,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ID_2352_3,0.005302478866390459,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2345_1,0.17236491397869946,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_WPTBC_2374_1,0.017780203370599934,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_2361_1,0.3453231742287317,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_WPTBC_2377_1,0.06491103336830195,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_SSA_2863_1,0.2164438331439753,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_PWBNH_3698_1,0.15573092716406534,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_TTWD_3743_1,0.2564100790872187,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2017_BTC_3729_1,0.06827882847817757,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_3729_2,0.12797381928788343,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_3734_1,0.033583913311508895,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3734_2,0.04970045244234367,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3734_3,0.07730878157514509,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_3734_4,0.0416395080932912,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BoTC_3746_1,0.005934807987184709,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BoTC_3747_1,0.004551243436304864,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_3714_1,0.056240548245653166,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_ICD_3735_1,0.01421303153059783,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_3735_2,0.01421303153059783,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_3745_1,0.06999152605776593,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_3745_2,0.13973587493168294,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_MMD_3753_1,0.03321976101243673,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_MMD_3754_1,0.06486120701532039,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_DoWR_3608_1,0.16520226778774305,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_ICD_3755_1,0.4227656808793423,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_3607_1,0.07663659318633997,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_DoWR_3704_1,0.2365356302078565,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_DoWR_3724_1,0.1442960762219737,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_DoWR_3726_1,0.3686159249383889,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_DoWR_4093_1,0.1017950869053097,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_4109_1,0.0444844647621101,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HE_4126_1,0.3189474600478085,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_HE_4126_2,0.3189474600478085,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_HE_4126_3,0.3189474600478085,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_HE_4126_4,0.3189474600478085,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_HE_4126_5,0.3189474600478085,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_AEGCL_4087_1,0.05118504990508532,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_4127_1,0.06587982175938623,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_HFWD_4132_1,0.4679524821178609,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_DoWR_4111_1,0.11486423478166752,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_4112_1,0.14563933475231572,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_APDCL_4129_1,0.11719239244602586,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_APDCL_4131_1,0.12510112107165383,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_1712_1,0.016972126739314586,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1712_2,0.007474971610669567,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1712_3,0.021212179244919804,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1712_4,0.03716531019621261,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1713_1,0.0037058266195318934,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1713_2,0.04654879930166422,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1713_3,0.03194048616063516,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1714_1,0.027973311434118853,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1714_2,0.014174011431491662,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1714_3,0.014174011431491662,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1714_4,0.005185471289656629,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1714_5,0.005302478866390459,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1716_1,0.004551243436304864,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1716_2,0.002045945138626326,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1717_1,0.35436444168581993,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_SSA_1719_1,0.17399275573857964,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_DoWR_1715_1,0.1388582352867469,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_GHC_1718_1,0.07001458307613084,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_GHC_1720_1,0.02755257104253761,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_GHC_1721_1,0.02755257104253761,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_AP_1722_1,0.07001458307613084,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_SSA_1723_1,0.23565475303193018,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_SSA_1724_1,0.17447802198431828,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2017_DIPR_1726_1,0.26080622255703256,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_HET_1647_2,0.14839540040393018,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_NHM_1728_1,0.08364809848685972,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_ICD_1699_2,0.21323505089238515,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_PWBNH_1731_1,0.11631537505612621,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_DoWR_1729_1,0.24479298176130615,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_1,0.005302478866390459,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_2,0.008380276464902914,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_3,0.06491103336830195,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1727_4,0.0015141944198419077,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_5,0.054418282592583855,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_6,0.04111874838654184,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_7,0.0011429307221524354,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_8,0.00311214513449265,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_9,0.004551243436304864,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_10,0.0077206566181947656,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_11,0.005302478866390459,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_12,0.025524525225526284,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_1727_13,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_14,0.005911255898420342,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_15,0.08853438642442779,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1727_16,0.03397522427088773,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1727_17,0.04168189702544467,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1727_18,0.0497666727653463,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1727_19,0.12805480176126582,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1727_20,0.002045945138626326,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_21,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_22,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_23,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_24,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_25,1.6989300818393005e-05,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_26,1.6989300818393005e-05,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_27,0.0017549084612012988,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_28,0.0017549084612012988,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_29,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_30,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_31,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_32,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_33,0.008761767964505562,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_34,0.006275450373626423,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_35,0.0006210458143965925,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_36,0.0018635848019733503,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_37,0.019440451907267287,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1727_38,0.028446994722226338,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ID_1734_1,0.15065828944337534,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_APHC_1735_1,0.2670736339319223,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1736_1,0.2670736339319223,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1737_1,0.2670736339319223,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_DoWR_1730_1,0.21688947043604434,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1732_1,0.2094746571969477,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ID_1725_1,0.03397522427088773,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_ID_1725_2,0.0907294826124172,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_ID_1725_3,0.0907294826124172,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_ID_1725_4,0.03807203714540708,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1733_1,0.013080462122151637,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1733_2,0.06827882847817757,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1733_3,0.09127175492462947,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1733_4,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1733_5,1.6989300818393005e-05,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1733_6,0.0018635848019733503,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1733_7,0.07538178310886645,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1733_8,0.00575383235336191,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1733_9,0.005989193853015329,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1733_10,0.03342587490299864,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1733_11,0.03757216640156524,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1733_12,0.06921040695258429,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_BTC_1733_13,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1733_14,0.033553841055190325,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1733_15,0.03184260821591223,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_1733_16,0.02016424106205328,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1733_17,0.026401888408918772,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1733_18,0.07057186654052217,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1733_19,0.06875205284251651,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1733_20,0.07057186654052217,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1733_21,0.07057186654052217,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1733_22,0.011069580771793097,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1733_23,0.056240548245653166,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_1740_1,0.023996827815026323,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1740_2,0.047089912118583266,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1740_3,0.0020834419592540288,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_APHC_1741_1,0.2670736339319223,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1742_1,0.2670736339319223,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1743_1,0.2670736339319223,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1744_1,0.2670736339319223,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1745_1,0.2670736339319223,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1746_1,0.2670736339319223,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1748_1,0.2670736339319223,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1749_1,0.2670736339319223,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1750_1,0.2670736339319223,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1751_1,0.2670736339319223,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_PWBNH_1738_1,0.06850505691477715,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1739_1,0.06429770095304044,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1752_1,0.06269261847233198,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1753_1,0.05352037525975062,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1755_1,0.04748452835119987,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_1747_1,0.014174011431491662,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1747_2,0.006275450373626423,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1747_3,0.042753532473245315,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1747_4,0.013092452213189554,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1747_5,0.0355533452469281,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_1747_6,0.00592103152454726,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_1757_1,0.07525189618774886,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_1758_1,0.07786474398813692,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_1759_1,0.059443842132390845,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_1756_1,0.08364809848685972,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_DOT_1754_1,0.0720138521897703,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DOT_1760_1,0.03995967345086204,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_APHC_1761_1,0.24439884145416546,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1762_1,0.25859738453337666,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1763_1,0.21732958244075917,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1766_1,0.24439884145416546,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1767_1,0.23482353555485136,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1768_1,0.23482353555485136,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1771_1,0.22111090591524662,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1772_1,0.2690468735169982,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_PWD_1765_1,0.23526746913910523,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_1765_2,0.13738265498576774,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_APHC_1774_1,0.24439884145416546,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1776_1,0.2670736339319223,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1777_1,0.21219392897318812,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1779_1,0.23482353555485136,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_APHC_1781_1,0.24439884145416546,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_PWBNH_1773_1,0.055558461582545404,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1775_1,0.06143389524225984,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1764_1,0.08944732834396674,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1769_1,0.0908182460920216,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1770_1,0.10999480924287974,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1778_1,0.24424717300423104,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1780_1,0.2526481630276286,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1782_1,0.02606059978505504,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1783_1,0.3007101673369825,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_TAX_1784_1,0.2892855823974744,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_SYWA_1789_1,0.2559931051272223,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_PWBNH_1791_1,0.029619027048405466,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HET_1790_1,0.14122343956753747,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_HET_1793_1,0.1695562177382277,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_HET_1794_1,0.14122343956753747,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_HET_1795_1,0.14839540040393018,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_HET_1796_1,0.1695562177382277,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_HET_1797_1,0.14839540040393018,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_BTC_1785_1,0.07755263554852454,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1786_1,0.041186676889446994,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1787_1,0.011203342037139796,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1787_2,0.005934807987184709,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1787_3,0.011654295937381987,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1787_4,0.06524766858237341,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1787_5,0.019636481240276837,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1787_6,0.0416395080932912,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1787_7,0.023996827815026323,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1787_8,0.02823361396462687,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1787_9,0.00592103152454726,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1792_1,0.12420398794617005,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_1792_2,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1792_3,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1792_4,0.14407816306707932,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_BTC_1792_5,0.02678877003591351,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1792_6,0.025235822652445505,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1792_7,0.019636481240276837,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1792_8,0.006006616914565943,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1792_9,0.02016424106205328,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_SSA_1504_1,0.41745456906710887,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2017_AP_1506_1,0.02755257104253761,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_SYWA_1508_1,0.27665415912914637,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_HFWD_1507_1,0.6588131693961295,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1660_1,0.019213534191434456,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1660_2,0.07339470578510954,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_NHM_1667_1,0.30702223991739985,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_SSA_1673_1,0.16894134596764843,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2017_SSA_1674_1,0.18977116955911966,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_SSA_1675_1,0.17291486454558702,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_SSA_1676_1,0.20096378144561378,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_BTC_1677_1,0.0018635848019733503,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1677_2,0.0006210458143965925,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1677_3,0.0017549084612012988,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1677_4,0.002045945138626326,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1678_1,0.04748452835119987,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1679_1,0.051210108986025515,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1680_1,0.031198432317311897,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1681_1,0.13926955670454932,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1683_1,0.28524116166416236,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1686_1,0.251579130887413,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1812_1,0.13499815410944482,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1814_1,0.11375653778604489,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1815_1,0.04748452835119987,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1816_1,0.33216937700023974,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1818_1,0.35287313608164095,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1822_1,0.14846862169057007,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1823_1,0.20875915408339762,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1819_1,0.20162436265787242,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1824_1,0.3495416537599648,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1825_1,0.1695550194102462,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1826_1,0.27274819696217,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1827_1,0.015275416770398564,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1828_1,0.042546204065748605,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1829_1,0.01656909972748244,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1830_1,0.1045635608337887,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1831_1,0.033948952744787264,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoIT_2044_1,0.07001458307613084,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2193_1,0.1763325631750835,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_2194_1,0.12147016164634761,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DEE_2204_1,0.18406144751703146,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_ICD_2371_1,0.002328790347404408,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PNRD_2368_1,0.12285071591727947,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PNRD_2367_1,0.12285071591727947,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_2380_1,0.06503224174357247,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_NHM_2351_1,0.11913320895459667,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_AP_2388_1,0.4191754352426583,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_2389_1,0.08764149515602626,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_2390_1,0.12742944003970635,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_2391_1,0.07785684251673308,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_2392_1,0.1388582352867469,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_2393_1,0.14641400626868872,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_2394_1,0.08785344511217474,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_ICD_2589_1,0.14916176662233815,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_2588_1,0.08601697287312293,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_2588_2,0.07764323520281347,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_2595_1,0.03194048616063516,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_SSA_2597_1,0.39549016076282073,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_HFWD_2596_1,0.3576148977410516,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_PWBNH_2598_1,0.045440567297067136,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_HFWD_2594_1,0.4594573299174657,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_RMSA_2864_1,0.4169991924363816,0,1,1,1,Single/low bidder competition; Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2017_CFMS_2865_1,0.2892855823974744,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_GSCT_2866_1,0.030476158567396938,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BoTC_2867_1,0.02823361396462687,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BoTC_2868_1,0.11696879874745003,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BoTC_2869_1,0.04970045244234367,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_FD_2874_1,0.14194548600212387,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_FD_2878_1,0.10170899431152969,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_HFWD_2871_1,0.1695562177382277,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_FD_2877_1,0.13833114094445953,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_FD_2875_1,0.10123998879872487,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_ICD_2880_1,0.396527315891144,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_2876_1,0.17419255762979824,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_PWBNH_2879_1,0.0824611604992248,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_FD_2882_1,0.14908657395874259,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_FD_2883_1,0.2052002866482202,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_FD_2885_1,0.0897438907104493,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_FD_2884_1,0.11101458570746181,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_FD_2887_1,0.11529757976538224,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_FD_2888_1,0.07821504259493117,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWD_3325_1,0.09349525558313088,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_NHM_3341_1,0.2797452433758755,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_3342_1,0.2797452433758755,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_3343_1,0.2916630550462551,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_3344_1,0.2797452433758755,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_3345_1,0.2797452433758755,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_3346_1,0.2916630550462551,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_3347_1,0.28043633959372083,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3749_1,0.03194048616063516,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3749_2,0.0077206566181947656,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3749_3,0.00575383235336191,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3750_1,0.0035496500292142574,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3750_2,0.002328790347404408,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3750_3,0.00155461730379014,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3751_1,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3751_2,0.0018635848019733503,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3751_3,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3751_4,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_3751_5,0.06990262938433467,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_BTC_3751_6,0.07298205004427805,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWD_3763_1,0.058290197693907864,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_CD_3762_1,0.07942001060866077,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_3763_2,0.0168880669189444,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_3764_1,0.24853372683967856,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_3763_3,0.04032441073775639,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_3763_4,0.01058813152642124,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_3763_5,0.025811826926183223,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_3763_6,0.057779918675699427,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_CD_3766_1,0.052579281472453054,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_3767_1,0.06319158124993851,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_3767_2,0.07057186654052217,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWD_3767_3,0.028938209575064655,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_3767_4,0.0657207847195801,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_BTC_1859_1,0.20896913833763187,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_BTC_1860_1,0.016188535663518966,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1864_1,0.006885330457741312,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1864_2,0.006885330457741312,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1864_3,0.006885330457741312,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1864_4,0.006885330457741312,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1877_1,0.0010594138420503274,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_BTC_1877_2,0.0023215489343426654,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1869_1,0.10089146921885273,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_1869_2,0.0663437573065433,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1869_3,0.024780475938741553,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1869_4,0.02035033665490782,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1869_5,0.039022961230294584,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1869_6,0.09140153559693442,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWD_1869_7,0.06831997874159812,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_1869_8,0.0674580827340131,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_1869_9,0.08548569165809083,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_1869_10,0.01608978887961754,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1869_11,0.029858825327948146,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWD_1869_12,0.062320492069687816,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_1869_13,0.06368215445168635,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_PWD_1869_14,0.024780475938741553,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1869_15,0.09274941556847949,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_ICD_1906_1,0.02755257104253761,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1892_1,0.37855412517232434,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_NHM_1910_1,0.11925709548208807,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_PWBNH_1911_1,0.10225033782429604,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1914_1,0.043140627986945845,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1915_1,0.1231988675357889,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1917_1,0.13032667128017084,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1918_1,0.626592375434448,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1920_1,0.031412564741170934,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1921_1,0.03864840687948168,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1923_1,0.09076599626049131,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_RMSA_1926_1,0.19957964755801716,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_NHM_1928_1,0.2494960689929031,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_NHM_1930_1,0.23041888835353808,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_ICD_1909_1,0.07636755219291125,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_1909_2,0.1117518827181263,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_1909_3,0.047828541941552394,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_1909_4,0.047828541941552394,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_1912_1,0.08405314837616318,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1919_1,0.05246795679253313,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_1931_1,0.8975448344022896,1,0,1,0,Tender duration is in lower quartile; IsolationForest outlier probability is elevated,Requires Human Review
+2017_DoWR_1924_1,0.3733059528230338,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_1934_1,0.2482009240229336,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_PWD_1932_1,0.1375584546873697,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWD_1935_1,0.09349525558313088,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_MISAL_1938_1,0.03321976101243673,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_DoWR_1936_1,0.04748452835119987,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1937_1,0.15025759600299182,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1939_1,0.02043373156130668,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1940_1,0.03756642687279832,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_DoWR_1941_1,0.005446649080700805,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1942_1,0.07746156532942194,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_NHM_1943_1,0.17055658140104468,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2017_NHM_1944_1,0.2544475241884141,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_NHM_1945_1,0.2261446242602596,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2016_HFWD_1323_7,0.828952583110734,1,0,0,0,IsolationForest outlier probability is elevated,Requires Human Review
+2017_NHM_1946_1,0.2581056451958479,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2017_NHM_1947_1,0.21695995879149632,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_ICD_1950_1,0.3594695273643096,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_DoWR_1948_1,0.32854937998642864,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1949_1,0.1579167161225946,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_NHM_1956_1,0.19497757476294586,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1951_1,0.05314557289580801,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_DoWR_1955_1,0.20504204961474204,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1953_1,0.05026789779758423,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1954_1,0.18021011611574433,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_DAASC_1959_1,0.27064765655588374,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_WPTBC_1958_1,0.6644790499576171,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_PWBNH_1962_1,0.07197282828754392,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1960_1,0.11580890299901658,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1961_1,0.1733684985698869,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1964_1,0.08181365244073802,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1963_1,0.19313253044169143,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_NHM_1957_1,1.0,1,0,0,1,Tender value is in upper quartile; IsolationForest outlier probability is elevated,Requires Human Review
+2017_PWBNH_1965_1,0.046439923278264295,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_SNT_1966_1,0.5853333794354925,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_FCS_1968_1,0.8535749075456933,1,0,0,0,IsolationForest outlier probability is elevated,Requires Human Review
+2017_PWBNH_1967_1,0.03313188599085337,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_SCD_1976_1,0.3036839094975321,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_SCD_1976_2,0.31374396562965445,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_SCD_1976_3,0.34491554738257046,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_1974_1,0.013982018618336811,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_1978_1,0.039077733467444586,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1971_1,0.32698538824275103,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1972_1,0.0006210458143965925,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1973_1,0.0017549084612012988,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1975_1,0.05713971189305478,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_HFWD_1981_1,0.396527315891144,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HFWD_1980_1,0.4229172922974965,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HFWD_1982_1,0.396527315891144,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HFWD_1983_1,0.42238907179741714,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HFWD_1984_1,0.4229172922974965,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HFWD_1985_1,0.4229172922974965,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_1987_1,0.2684745804958363,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_NHM_1990_1,0.26806758377800677,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_NHM_1992_1,0.2844279286793501,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_NHM_1997_1,0.2840809720232498,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_NHM_1998_1,0.3217113701582158,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_ICD_1970_1,0.03321976101243673,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_HFWD_1999_1,0.4229172922974965,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HFWD_2001_1,0.396527315891144,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1991_1,0.049582760062799935,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_1993_1,0.025303744490195013,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1994_1,0.0013859852486080015,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1995_1,0.015087087070094984,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_1996_1,0.05630569464821844,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_2000_1,0.3217113701582158,0,1,0,1,Single/low bidder competition; Tender value is in upper quartile,Requires Human Review
+2017_NHM_2002_1,0.20783604301551684,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_RMSA_2003_1,0.3410001128271588,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_NHM_2006_1,0.031353666866186125,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_SCD_2011_1,0.2958956132818533,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_2013_1,0.23093787349269046,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_SCD_2011_2,0.5461747197401856,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_2004_1,0.35322304896431767,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_2005_1,0.48354078310732607,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_2008_1,0.3295042496948446,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_2009_1,0.3809286530266107,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_2010_1,0.37447819497719614,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_2012_1,0.27087072613952756,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_2014_1,0.32128599587672346,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_NHM_2015_1,0.17795506659530236,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_NHM_2016_1,0.1247119079419794,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_NHM_2017_1,0.13968529687765285,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_NHM_2018_1,0.12510112107165383,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_NHM_2019_1,0.3857503657759592,0,1,1,1,Single/low bidder competition; Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2017_ICD_2020_1,0.15363259163844756,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_SCD_2011_3,0.37027789418799184,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_ICD_2021_1,0.2592412815347638,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_PNRD_2022_1,0.21066466563835573,0,0,1,0,Tender duration is in lower quartile,Requires Human Review
+2017_PWBNH_2023_1,0.029007863094836384,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2016_HFWD_1323_8,0.8332422912039615,1,0,0,0,IsolationForest outlier probability is elevated,Requires Human Review
+2017_NHM_2025_1,0.33819737878819867,0,0,1,1,Tender duration is in lower quartile; Tender value is in upper quartile,Requires Human Review
+2017_PWBNH_2027_1,0.10900374239502675,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_ICD_2028_1,0.19789273989547018,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_DoWR_2026_1,0.2526481630276286,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_HFWD_2024_1,0.6953092044985463,0,1,1,0,Single/low bidder competition; Tender duration is in lower quartile,Requires Human Review
+2017_PWBNH_2029_1,0.03325176828243581,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_2030_1,0.0037058266195318934,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_2031_1,0.0037058266195318934,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_2032_1,0.03691236559655375,0,1,0,0,Single/low bidder competition,Requires Human Review
+2017_PWBNH_2033_1,0.02948473031556864,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_PWBNH_2034_1,0.002182870475014309,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_2036_1,0.021212179244919804,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_2037_1,0.01339982705034437,0,0,0,0,No strong anomaly signals; monitor baseline drift,Requires Human Review
+2017_DoWR_2039_1,0.09678458633383269,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_2040_1,0.09036806657805829,0,0,0,1,Tender value is in upper quartile,Requires Human Review
+2017_DoWR_2041_1,0.022252539857357423,0,0,0,1,Tender value is in upper quartile,Requires Human Review

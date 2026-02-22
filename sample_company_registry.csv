@@ -1,0 +1,21 @@
+CIN,CompanyName,PaidupCapital,AuthorizedCapital,CompanyRegistrationdate_date,Registered_Office_Address,CompanyStatus,nic_code,CompanyStateCode
+U99999TN2016PTC000001,National Health Mission,150000,600000,02-01-2016,"2 Example Street, Chennai",Active,NIC2,TN
+U99999TN2016PTC000002,Public Works Building and NH Department,200000,700000,03-01-2016,"3 Example Street, Chennai",Active,NIC3,TN
+U99999TN2016PTC000003,Axom Sarba Siksha Abhijan Mission,250000,800000,04-01-2016,"4 Example Street, Chennai",Active,NIC4,TN
+U99999TN2016PTC000004,Department of Water Resources,300000,900000,05-01-2016,"5 Example Street, Chennai",Active,NIC1,TN
+U99999TN2016PTC000005,Organizing Committee-South Asian Games,350000,1000000,06-01-2016,"1 Example Street, Chennai",Active,NIC2,TN
+U99999TN2016PTC000006,Industries and Commerce Department,400000,1100000,07-01-2016,"2 Example Street, Chennai",Dormant,NIC3,TN
+U99999TN2016PTC000007,Bodoland Territorial Council-PWD,450000,1200000,08-01-2016,"3 Example Street, Chennai",Active,NIC4,TN
+U99999TN2016PTC000008,Assam Police Housing Corporation Ltd,500000,1300000,09-01-2016,"4 Example Street, Chennai",Active,NIC1,TN
+U99999TN2016PTC000009,Social Welfare Department,550000,1400000,10-01-2016,"5 Example Street, Chennai",Active,NIC2,TN
+U99999TN2016PTC000010,Guwahati Metropolitan Development Authority,600000,1500000,11-01-2016,"1 Example Street, Chennai",Active,NIC3,TN
+U99999TN2016PTC000011,Department of Tourism,650000,1600000,12-01-2016,"2 Example Street, Chennai",Active,NIC4,TN
+U99999TN2016PTC000012,Public Health Engineering Department,700000,1700000,13-01-2016,"3 Example Street, Chennai",Dormant,NIC1,TN
+U99999TN2016PTC000013,Rashtriya Madhyamik Siksha Abhijan,750000,1800000,14-01-2016,"4 Example Street, Chennai",Active,NIC2,TN
+U99999TN2016PTC000014,Irrigation Department,800000,1900000,15-01-2016,"5 Example Street, Chennai",Active,NIC3,TN
+U99999TN2016PTC000015,National Register of Citizens Assam,850000,2000000,16-01-2016,"1 Example Street, Chennai",Active,NIC4,TN
+U99999TN2016PTC000016,Health and Family Welfare Department,900000,2100000,17-01-2016,"2 Example Street, Chennai",Active,NIC1,TN
+U99999TN2016PTC000017,Principal Secretary- P and RD- Assam Secretariat,950000,2200000,18-01-2016,"3 Example Street, Chennai",Active,NIC2,TN
+U99999TN2016PTC000018,Higher Education (Technical) Department,1000000,2300000,19-01-2016,"4 Example Street, Chennai",Dormant,NIC3,TN
+U99999TN2016PTC000019,Urban Development Department,1050000,2400000,20-01-2016,"5 Example Street, Chennai",Active,NIC4,TN
+U99999TN2016PTC000020,Elementary Education Department,1100000,2500000,21-01-2016,"1 Example Street, Chennai",Active,NIC1,TN

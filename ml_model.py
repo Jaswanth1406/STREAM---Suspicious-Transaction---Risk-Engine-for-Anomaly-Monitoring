@@ -262,7 +262,10 @@ if __name__ == "__main__":
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     # ── Step 1: Rule-based risk scoring on ALL datasets ──
-    csv_files = sorted([f for f in os.listdir(DATASETS_DIR) if f.endswith(".csv")])
+    csv_files = sorted([
+        f for f in os.listdir(DATASETS_DIR)
+        if f.endswith(".csv") and f.startswith("ocds_mapped_procurement_data")
+    ])
     print(f"\n{'='*60}")
     print(f"  STREAM — Processing {len(csv_files)} Datasets")
     print(f"{'='*60}")
