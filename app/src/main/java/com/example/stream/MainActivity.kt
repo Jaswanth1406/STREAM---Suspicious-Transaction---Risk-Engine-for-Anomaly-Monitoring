@@ -4,26 +4,26 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
+import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.stream.ui.theme.StreamTheme
-
 import com.example.stream.ui.login.LoginScreen
+import com.example.stream.ui.navigation.MainScreen
+import com.example.stream.ui.theme.StreamTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            StreamTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+            StreamTheme(dynamicColor = false) {
+                var isLoggedIn by remember { mutableStateOf(false) }
+
+                if (isLoggedIn) {
+                    MainScreen()
+                } else {
                     LoginScreen(
-                        modifier = Modifier.padding(innerPadding)
+                        modifier = Modifier,
+                        onLoginSuccess = { isLoggedIn = true }
                     )
                 }
             }

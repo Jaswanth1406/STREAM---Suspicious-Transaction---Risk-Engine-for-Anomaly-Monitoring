@@ -40,7 +40,7 @@ import kotlinx.coroutines.delay
 
 @OptIn(ExperimentalAnimationGraphicsApi::class)
 @Composable
-fun LoginScreen(modifier: Modifier = Modifier) {
+fun LoginScreen(modifier: Modifier = Modifier, onLoginSuccess: () -> Unit = {}) {
     var email by remember { mutableStateOf("") }
     var password by remember { mutableStateOf("") }
     var passwordVisible by remember { mutableStateOf(false) }
@@ -265,6 +265,7 @@ fun LoginScreen(modifier: Modifier = Modifier) {
         if(isLoading) {
             delay(2000)
             isLoading = false
+            onLoginSuccess()
         }
     }
 }
