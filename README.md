@@ -2,7 +2,7 @@
 
 > Anti-Corruption Procurement Fraud Detection Platform
 >
-> AIA-26 Hackathon — Anna University
+> Tekhora Hackathon at Madras Institute of Technology
 
 STREAM detects corruption in government procurement by combining **rule-based red flags**, a **supervised ML model**, **entity resolution** across procurement, electoral bonds, and company registries, and an **AI agent** for natural-language investigation — all backed by **Neon PostgreSQL**.
 
@@ -706,4 +706,4 @@ curl -X POST http://localhost:8000/predict \
 
 ---
 
-*STREAM — AIA-26 Hackathon · Anna University*
+*STREAM — Tekhora Hackathon at Madras Institute of Technology*
