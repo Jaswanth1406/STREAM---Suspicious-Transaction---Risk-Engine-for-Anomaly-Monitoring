@@ -1,8 +1,6 @@
 # STREAM — Suspicious Transaction Risk Engine for Anomaly Monitoring
 
 > Anti-Corruption Procurement Fraud Detection Platform
->
-> Tekhora Hackathon at Madras Institute of Technology
 
 STREAM detects corruption in government procurement by combining **rule-based red flags**, a **supervised ML model**, **entity resolution** across procurement, electoral bonds, and company registries, and an **AI agent** for natural-language investigation — all backed by **Neon PostgreSQL**.
 
@@ -705,5 +703,3 @@ curl -X POST http://localhost:8000/predict \
 | 23 | POST | `/agent/chat/stream` | AI agent chat (SSE stream) |
 
 ---
-
-*STREAM — Tekhora Hackathon at Madras Institute of Technology*
