@@ -27,7 +27,7 @@ export default function ChatBot() {
   }, [chatMessages]);
 
   const handleSend = async () => {
-    if (!input.trim()) return;
+    if (!input.trim() || isTyping) return;
 
     const userMsg: ChatMessage = {
       id: Date.now().toString(),
@@ -42,6 +42,7 @@ export default function ChatBot() {
 
     try {
       let fullResponse = '';
+      let messageAdded = false;
 
       await api.agent.chatStreamFetch(
         {
@@ -56,16 +57,19 @@ export default function ChatBot() {
           } else if (event.type === 'tool_end') {
             console.log(`Tool completed: ${event.tool}`);
           } else if (event.type === 'done') {
-            // Add the final message to store
-            const botMsg: ChatMessage = {
-              id: (Date.now() + 1).toString(),
-              role: 'assistant',
-              content: fullResponse,
-              timestamp: new Date().toISOString(),
-            };
-            addChatMessage(botMsg);
-            setStreamingMessage("");
-            setIsTyping(false);
+            if (!messageAdded) {
+              messageAdded = true;
+              // Add the final message to store
+              const botMsg: ChatMessage = {
+                id: (Date.now() + 1).toString(),
+                role: 'assistant',
+                content: fullResponse || "Sorry, no response was generated.",
+                timestamp: new Date().toISOString(),
+              };
+              addChatMessage(botMsg);
+              setStreamingMessage("");
+              setIsTyping(false);
+            }
           }
         }
       );

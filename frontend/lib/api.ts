@@ -146,11 +146,15 @@ export const api = {
 
       const decoder = new TextDecoder();
       let buffer = '';
+      let isDoneEmitted = false;
 
       while (true) {
         const { done, value } = await reader.read();
         if (done) {
-          onEvent({ type: 'done' });
+          if (!isDoneEmitted) {
+            isDoneEmitted = true;
+            onEvent({ type: 'done' });
+          }
           break;
         }
 
@@ -163,7 +167,25 @@ export const api = {
         for (const line of lines) {
           if (line.startsWith('data: ')) {
             try {
-              const event = JSON.parse(line.slice(6));
+              const eventInfo = line.slice(6).trim();
+              if (!eventInfo) continue;
+              
+              if (eventInfo === '[DONE]') {
+                if (!isDoneEmitted) {
+                  isDoneEmitted = true;
+                  onEvent({ type: 'done' });
+                }
+                continue;
+              }
+
+              const event = JSON.parse(eventInfo);
+              if (event.type === 'done') {
+                if (!isDoneEmitted) {
+                  isDoneEmitted = true;
+                  onEvent(event);
+                }
+                continue;
+              }
               onEvent(event);
             } catch (e) {
               console.error('Failed to parse SSE event:', line, e);
