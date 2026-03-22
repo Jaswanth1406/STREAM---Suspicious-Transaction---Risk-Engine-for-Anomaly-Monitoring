@@ -1,0 +1,19 @@
+{
+  "model": "GradientBoosting",
+  "roc_auc": 0.9937,
+  "accuracy": 0.9633,
+  "f1_score": 0.9205,
+  "threshold": 20,
+  "trained_at": "2026-03-22T13:18:35.855107",
+  "features": [
+    "amount",
+    "num_tenderers",
+    "duration_days",
+    "log_amount",
+    "is_round_amount",
+    "amount_vs_buyer_avg",
+    "tender/procurementMethod_enc",
+    "tenderclassification/description_enc",
+    "buyer/name_enc"
+  ]
+}
