@@ -3,9 +3,110 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { motion } from "framer-motion";
 import { api } from "@/lib/api";
-import type { NetworkGraphResponse } from "@/lib/types";
+import type { NetworkEdge, NetworkGraphResponse } from "@/lib/types";
 import { ZoomIn, ZoomOut, RotateCcw, Filter } from "lucide-react";
 import Link from "next/link";
+
+function normalizeKey(value: unknown): string {
+  return String(value ?? "").trim();
+}
+
+function resolveEdgeEndpoints(
+  edges: NetworkEdge[],
+  nodeIds: Set<string>,
+  nodeIdByLabel: Map<string, string>,
+): NetworkEdge[] {
+  const normalizeLabel = (value: unknown) => normalizeKey(value).toLowerCase();
+
+  return edges
+    .map((edge) => {
+      const raw = edge as NetworkEdge & Record<string, unknown>;
+
+      let source = normalizeKey(raw.source ?? raw.source_id ?? raw.src ?? raw.from);
+      let target = normalizeKey(raw.target ?? raw.target_id ?? raw.dst ?? raw.to);
+
+      if (!nodeIds.has(source)) {
+        const sourceLabel =
+          normalizeLabel(raw.source_label) ||
+          normalizeLabel(raw.source_name) ||
+          normalizeLabel(raw.source_entity) ||
+          normalizeLabel(raw.source);
+        if (sourceLabel && nodeIdByLabel.has(sourceLabel)) {
+          source = nodeIdByLabel.get(sourceLabel)!;
+        }
+      }
+
+      if (!nodeIds.has(target)) {
+        const targetLabel =
+          normalizeLabel(raw.target_label) ||
+          normalizeLabel(raw.target_name) ||
+          normalizeLabel(raw.target_entity) ||
+          normalizeLabel(raw.target);
+        if (targetLabel && nodeIdByLabel.has(targetLabel)) {
+          target = nodeIdByLabel.get(targetLabel)!;
+        }
+      }
+
+      return {
+        ...edge,
+        source,
+        target,
+      };
+    })
+    .filter((edge) => nodeIds.has(edge.source) && nodeIds.has(edge.target) && edge.source !== edge.target);
+}
+
+function createFallbackEdges(nodeIds: string[]): NetworkEdge[] {
+  if (nodeIds.length < 2) return [];
+
+  const edges: NetworkEdge[] = [];
+  for (let i = 0; i < nodeIds.length; i++) {
+    edges.push({
+      source: nodeIds[i],
+      target: nodeIds[(i + 1) % nodeIds.length],
+      type: "inferred",
+      weight: 1,
+      label: "Inferred connection",
+      color: "#7f8aa3",
+    });
+  }
+
+  return edges;
+}
+
+function clamp(value: number, min: number, max: number): number {
+  return Math.max(min, Math.min(max, value));
+}
+
+function mixChannel(a: number, b: number, t: number): number {
+  return Math.round(a + (b - a) * t);
+}
+
+function rgbToHex(r: number, g: number, b: number): string {
+  const toHex = (v: number) => v.toString(16).padStart(2, "0");
+  return `#${toHex(clamp(r, 0, 255))}${toHex(clamp(g, 0, 255))}${toHex(clamp(b, 0, 255))}`;
+}
+
+function interpolateColor(from: [number, number, number], to: [number, number, number], t: number): string {
+  return rgbToHex(
+    mixChannel(from[0], to[0], t),
+    mixChannel(from[1], to[1], t),
+    mixChannel(from[2], to[2], t),
+  );
+}
+
+function getRiskColor(score: number | null, minRisk: number, maxRisk: number): string {
+  if (score == null || !isFinite(score)) return "#7f8aa3";
+  if (!isFinite(minRisk) || !isFinite(maxRisk) || maxRisk <= minRisk) return "#f59e0b";
+
+  const t = clamp((score - minRisk) / (maxRisk - minRisk), 0, 1);
+
+  // Two-stage gradient: green (low) -> amber (mid) -> red (high)
+  if (t < 0.5) {
+    return interpolateColor([34, 197, 94], [245, 158, 11], t / 0.5);
+  }
+  return interpolateColor([245, 158, 11], [239, 68, 68], (t - 0.5) / 0.5);
+}
 
 export default function NetworkPage() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -25,11 +126,26 @@ export default function NetworkPage() {
     setLoading(true);
     api.networkGraph({ min_risk_score: 0, limit_nodes: 300 })
       .then((data) => {
-        setGraphData(data);
+        const normalizedNodes = data.nodes.map((node) => ({ ...node, id: normalizeKey(node.id) }));
+        const nodeIds = normalizedNodes.map((node) => node.id);
+        const nodeIdSet = new Set(nodeIds);
+        const nodeIdByLabel = new Map(
+          normalizedNodes.map((node) => [normalizeKey(node.label).toLowerCase(), node.id]),
+        );
+
+        const resolvedEdges = resolveEdgeEndpoints(data.edges, nodeIdSet, nodeIdByLabel);
+        const edges = resolvedEdges.length > 0 ? resolvedEdges : createFallbackEdges(nodeIds);
+        const nextGraphData: NetworkGraphResponse = {
+          ...data,
+          nodes: normalizedNodes,
+          edges,
+        };
+
+        setGraphData(nextGraphData);
         const positions: Record<string, { x: number; y: number }> = {};
         const cx = 400, cy = 300;
-        data.nodes.forEach((node, i) => {
-          const angle = (i / data.nodes.length) * Math.PI * 2;
+        normalizedNodes.forEach((node, i) => {
+          const angle = (i / normalizedNodes.length) * Math.PI * 2;
           const radius = 120 + Math.random() * 120;
           positions[node.id] = {
             x: cx + Math.cos(angle) * radius,
@@ -38,9 +154,9 @@ export default function NetworkPage() {
         });
         // Force simulation
         for (let iter = 0; iter < 80; iter++) {
-          for (let i = 0; i < data.nodes.length; i++) {
-            for (let j = i + 1; j < data.nodes.length; j++) {
-              const a = data.nodes[i], b = data.nodes[j];
+          for (let i = 0; i < normalizedNodes.length; i++) {
+            for (let j = i + 1; j < normalizedNodes.length; j++) {
+              const a = normalizedNodes[i], b = normalizedNodes[j];
               const pa = positions[a.id], pb = positions[b.id];
               if (!pa || !pb) continue;
               const dx = pb.x - pa.x, dy = pb.y - pa.y;
@@ -50,7 +166,7 @@ export default function NetworkPage() {
               pa.x -= fx; pa.y -= fy; pb.x += fx; pb.y += fy;
             }
           }
-          data.edges.forEach((edge) => {
+          edges.forEach((edge) => {
             const src = positions[edge.source], tgt = positions[edge.target];
             if (!src || !tgt) return;
             const dx = tgt.x - src.x, dy = tgt.y - src.y;
@@ -59,7 +175,7 @@ export default function NetworkPage() {
             const fx = (dx / dist) * force, fy = (dy / dist) * force;
             src.x += fx; src.y += fy; tgt.x -= fx; tgt.y -= fy;
           });
-          data.nodes.forEach((node) => {
+          normalizedNodes.forEach((node) => {
             const p = positions[node.id];
             if (p) { p.x += (cx - p.x) * 0.01; p.y += (cy - p.y) * 0.01; }
           });
@@ -89,6 +205,11 @@ export default function NetworkPage() {
     const edges = filterEdgeType
       ? graphData.edges.filter((e) => e.type === filterEdgeType)
       : graphData.edges;
+    const riskValues = graphData.nodes
+      .map((node) => node.risk_score)
+      .filter((risk): risk is number => risk != null && isFinite(risk));
+    const minRisk = riskValues.length ? Math.min(...riskValues) : 0;
+    const maxRisk = riskValues.length ? Math.max(...riskValues) : 100;
 
     // Draw edges
     edges.forEach((edge) => {
@@ -97,9 +218,11 @@ export default function NetworkPage() {
       ctx.beginPath();
       ctx.moveTo(src.x, src.y);
       ctx.lineTo(tgt.x, tgt.y);
-      ctx.strokeStyle = (edge.color ?? '#999999') + "50";
+      ctx.strokeStyle = edge.color ?? "#7f8aa3";
+      ctx.globalAlpha = 0.36;
       ctx.lineWidth = Math.min(3, 0.5 + ((edge.weight ?? 1) > 1000 ? 2 : (edge.weight ?? 1) * 0.3));
       ctx.stroke();
+      ctx.globalAlpha = 1;
     });
 
     // Draw nodes
@@ -110,7 +233,7 @@ export default function NetworkPage() {
       const isSelected = selectedNode === node.id;
       const baseRadius = Math.max(4, (node.size ?? 20) * 0.12);
       const radius = isHovered || isSelected ? baseRadius + 3 : baseRadius;
-      const color = node.color ?? '#6b7394';
+      const color = getRiskColor(node.risk_score, minRisk, maxRisk);
 
       if (isHovered || isSelected) {
         ctx.beginPath();
@@ -268,6 +391,12 @@ export default function NetworkPage() {
           const node = graphData.nodes.find((n) => n.id === selectedNode);
           if (!node) return null;
           const connCount = graphData.edges.filter((e) => e.source === node.id || e.target === node.id).length;
+          const riskValues = graphData.nodes
+            .map((n) => n.risk_score)
+            .filter((risk): risk is number => risk != null && isFinite(risk));
+          const minRisk = riskValues.length ? Math.min(...riskValues) : 0;
+          const maxRisk = riskValues.length ? Math.max(...riskValues) : 100;
+          const riskColor = getRiskColor(node.risk_score, minRisk, maxRisk);
           return (
             <motion.div initial={{ opacity: 0, x: 10 }} animate={{ opacity: 1, x: 0 }} className="absolute top-4 right-4 bg-surface/90 backdrop-blur-sm border border-border rounded-lg p-4 w-64">
               <div className="flex items-center justify-between mb-2">
@@ -275,10 +404,10 @@ export default function NetworkPage() {
                 <button onClick={() => setSelectedNode(null)} className="text-muted hover:text-text">✕</button>
               </div>
               <p className="text-[10px] text-muted mb-2 capitalize font-[var(--font-space-mono)]">
-                Type: <span style={{ color: node.color }}>{node.type.replace(/_/g, ' ')}</span>
+                Type: <span style={{ color: riskColor }}>{node.type.replace(/_/g, ' ')}</span>
               </p>
               {node.risk_score != null && (
-                <p className="text-lg font-[var(--font-space-mono)] font-bold" style={{ color: node.color }}>
+                <p className="text-lg font-[var(--font-space-mono)] font-bold" style={{ color: riskColor }}>
                   Risk: {node.risk_score}
                 </p>
               )}

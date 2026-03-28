@@ -6,7 +6,6 @@ import type { VendorProfile, VendorSearchResult } from "@/lib/types";
 import { motion } from "framer-motion";
 import {
   Shield, Search, Landmark, Users, MapPin, Link2,
-  ArrowUpRight, FileText,
 } from "lucide-react";
 
 const connectionIcons: Record<string, React.ReactNode> = {
@@ -232,16 +231,6 @@ export default function RightPanel() {
               </div>
             </div>
           )}
-
-          {/* Actions */}
-          <div className="space-y-2 pt-2">
-            <button className="w-full flex items-center gap-2 px-4 py-2.5 bg-accent-red/10 border border-accent-red/30 rounded-lg text-accent-red text-sm font-[var(--font-syne)] font-bold hover:bg-accent-red/20 transition-all">
-              <ArrowUpRight size={14} /> Escalate
-            </button>
-            <button className="w-full flex items-center gap-2 px-4 py-2.5 bg-accent-blue/10 border border-accent-blue/30 rounded-lg text-accent-blue text-sm font-[var(--font-syne)] font-bold hover:bg-accent-blue/20 transition-all">
-              <FileText size={14} /> Annotate
-            </button>
-          </div>
         </>
       )}
     </div>
