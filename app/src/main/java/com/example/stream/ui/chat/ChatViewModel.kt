@@ -15,6 +15,7 @@ import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.UUID
 import java.util.concurrent.TimeUnit
+import com.example.stream.BuildConfig
 
 enum class MessageStatus { SENDING, SENT, DELIVERED, ERROR }
 enum class MessageRole { USER, ASSISTANT, SYSTEM }
@@ -40,7 +41,7 @@ class ChatViewModel : ViewModel() {
     val isTyping = _isTyping.asStateFlow()
     private var sessionId: String = UUID.randomUUID().toString()
     private val client = OkHttpClient.Builder().connectTimeout(60, TimeUnit.SECONDS).readTimeout(120, TimeUnit.SECONDS).writeTimeout(30, TimeUnit.SECONDS).build()
-    private val baseUrl = "http://192.168.114.61:8000"
+    private val baseUrl = BuildConfig.BASE_URL.trimEnd('/')
 
     fun sendMessage(text: String) {
         if (text.isBlank()) return

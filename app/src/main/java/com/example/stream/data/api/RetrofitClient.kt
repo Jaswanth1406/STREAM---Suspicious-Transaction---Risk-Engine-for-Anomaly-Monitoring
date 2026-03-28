@@ -1,5 +1,6 @@
 package com.example.stream.data.api
 
+import com.example.stream.BuildConfig
 import com.example.stream.data.model.BidTender
 import com.google.gson.*
 import okhttp3.OkHttpClient
@@ -42,7 +43,7 @@ class BidTenderDeserializer : JsonDeserializer<BidTender> {
 }
 
 object RetrofitClient {
-    private const val BASE_URL = "http://192.168.114.61:8000/"
+    private val BASE_URL = BuildConfig.BASE_URL
     private val loggingInterceptor = HttpLoggingInterceptor().apply { level = HttpLoggingInterceptor.Level.BASIC }
     private val okHttpClient = OkHttpClient.Builder()
         .addInterceptor(loggingInterceptor)
