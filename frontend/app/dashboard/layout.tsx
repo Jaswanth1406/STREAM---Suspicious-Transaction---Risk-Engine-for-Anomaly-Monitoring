@@ -42,7 +42,7 @@ export default function DashboardLayout({
     );
   }
 
-  const user = session?.user || { name: "Nitheesh Kumar", email: "nitheesh@stream.gov.in" };
+  const user = session?.user || { name: "User1", email: "user1@stream.gov.in" };
 
   return (
     <div className="min-h-screen flex flex-col">
